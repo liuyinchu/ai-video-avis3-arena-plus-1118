@@ -1,0 +1,68 @@
+{
+  "title": "三份隔振答卷",
+  "sha256": "642b20ab7b57fa4c7b9eeb40fd44f4cc6b3ce561fb9821a714e758e58544e498",
+  "bytes": 51519432,
+  "durationSeconds": 127.5,
+  "frames": 3825,
+  "decodedVideoFrames": 3825,
+  "video": "h264 1920x1080 30/1",
+  "audio": "aac 48000 Hz stereo",
+  "integratedLUFS": -17.95,
+  "truePeakDBTP": -2.58,
+  "loudnessRangeLU": 4.5,
+  "detectedSilencesOver06s": 0,
+  "captionCues": 24,
+  "sceneAlignedAudio": [
+    {
+      "scene": "open",
+      "left": 0.9997488910917958,
+      "right": 0.9997060258779891
+    },
+    {
+      "scene": "rules",
+      "left": 0.9995909668325494,
+      "right": 0.9995479400348583
+    },
+    {
+      "scene": "fable",
+      "left": 0.9983625292005064,
+      "right": 0.9987172217344032
+    },
+    {
+      "scene": "astra",
+      "left": 0.9982648820649394,
+      "right": 0.9973522107072598
+    },
+    {
+      "scene": "pair",
+      "left": 0.9989077584457953,
+      "right": 0.9982414536301935
+    },
+    {
+      "scene": "sol",
+      "left": 0.999368914047658,
+      "right": 0.9996375942536743
+    },
+    {
+      "scene": "spread",
+      "left": 0.9987739577970626,
+      "right": 0.9983207479904801
+    },
+    {
+      "scene": "spectrum",
+      "left": 0.9994683597337125,
+      "right": 0.9996631620066171
+    },
+    {
+      "scene": "board",
+      "left": 0.9971732168863796,
+      "right": 0.9965319827793829
+    }
+  ],
+  "relativeBandRms": {
+    "n13": 0.008262727339734592,
+    "n16": 0.006397666574395305,
+    "n17": 48.94539362709521
+  },
+  "totalRounds": 340
+}

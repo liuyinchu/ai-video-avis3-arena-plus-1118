@@ -1,0 +1,164 @@
+{
+  "file": "out/AVIS3-Plus-1118-Breeze.mp4",
+  "sha256": "11b6ac715b290682466ac5e9cd66739b4557b84a09c88e30c9493679d12d223d",
+  "size": 50347408,
+  "seconds": 127.5,
+  "frameCount": 3825,
+  "format": "H.264, 1920x1080, 30 fps; AAC, 48 kHz stereo",
+  "model": "Breeze TTS 2",
+  "slurmJobs": [
+    "41256"
+  ],
+  "scenes": 9,
+  "cues": 24,
+  "integratedLUFS": -16.51,
+  "truePeakDBTP": -3.53,
+  "fastestTempo": 1.0983,
+  "lowestVoiceOverMusicDB": 13.7446,
+  "checks": [
+    {
+      "id": "open-1",
+      "masterCorrelation": 0.99985,
+      "drySpeechCorrelation": 0.99247,
+      "speechOverResidualDB": 18.17
+    },
+    {
+      "id": "rules-1",
+      "masterCorrelation": 0.9999,
+      "drySpeechCorrelation": 0.99112,
+      "speechOverResidualDB": 17.45
+    },
+    {
+      "id": "rules-2",
+      "masterCorrelation": 0.99996,
+      "drySpeechCorrelation": 0.99253,
+      "speechOverResidualDB": 18.21
+    },
+    {
+      "id": "fable-1",
+      "masterCorrelation": 0.99988,
+      "drySpeechCorrelation": 0.9905,
+      "speechOverResidualDB": 17.15
+    },
+    {
+      "id": "fable-2",
+      "masterCorrelation": 0.99978,
+      "drySpeechCorrelation": 0.98953,
+      "speechOverResidualDB": 16.72
+    },
+    {
+      "id": "fable-3",
+      "masterCorrelation": 0.99994,
+      "drySpeechCorrelation": 0.99078,
+      "speechOverResidualDB": 17.28
+    },
+    {
+      "id": "astra-1",
+      "masterCorrelation": 0.99975,
+      "drySpeechCorrelation": 0.9868,
+      "speechOverResidualDB": 15.7
+    },
+    {
+      "id": "astra-2",
+      "masterCorrelation": 0.99986,
+      "drySpeechCorrelation": 0.98713,
+      "speechOverResidualDB": 15.81
+    },
+    {
+      "id": "astra-3",
+      "masterCorrelation": 0.99987,
+      "drySpeechCorrelation": 0.98637,
+      "speechOverResidualDB": 15.56
+    },
+    {
+      "id": "pair-1",
+      "masterCorrelation": 0.99971,
+      "drySpeechCorrelation": 0.98194,
+      "speechOverResidualDB": 14.3
+    },
+    {
+      "id": "pair-2",
+      "masterCorrelation": 0.99985,
+      "drySpeechCorrelation": 0.98232,
+      "speechOverResidualDB": 14.4
+    },
+    {
+      "id": "pair-3",
+      "masterCorrelation": 0.99986,
+      "drySpeechCorrelation": 0.98139,
+      "speechOverResidualDB": 14.17
+    },
+    {
+      "id": "sol-1",
+      "masterCorrelation": 0.99987,
+      "drySpeechCorrelation": 0.99259,
+      "speechOverResidualDB": 18.24
+    },
+    {
+      "id": "sol-2",
+      "masterCorrelation": 0.99996,
+      "drySpeechCorrelation": 0.9921,
+      "speechOverResidualDB": 17.96
+    },
+    {
+      "id": "sol-3",
+      "masterCorrelation": 0.9999,
+      "drySpeechCorrelation": 0.99281,
+      "speechOverResidualDB": 18.38
+    },
+    {
+      "id": "spread-1",
+      "masterCorrelation": 0.99981,
+      "drySpeechCorrelation": 0.9871,
+      "speechOverResidualDB": 15.8
+    },
+    {
+      "id": "spread-2",
+      "masterCorrelation": 0.99988,
+      "drySpeechCorrelation": 0.98651,
+      "speechOverResidualDB": 15.6
+    },
+    {
+      "id": "spread-3",
+      "masterCorrelation": 0.99982,
+      "drySpeechCorrelation": 0.98563,
+      "speechOverResidualDB": 15.32
+    },
+    {
+      "id": "spectrum-1",
+      "masterCorrelation": 0.99995,
+      "drySpeechCorrelation": 0.99783,
+      "speechOverResidualDB": 23.61
+    },
+    {
+      "id": "spectrum-2",
+      "masterCorrelation": 0.99973,
+      "drySpeechCorrelation": 0.98829,
+      "speechOverResidualDB": 16.23
+    },
+    {
+      "id": "spectrum-3",
+      "masterCorrelation": 0.99993,
+      "drySpeechCorrelation": 0.99037,
+      "speechOverResidualDB": 17.09
+    },
+    {
+      "id": "board-1",
+      "masterCorrelation": 0.99974,
+      "drySpeechCorrelation": 0.98009,
+      "speechOverResidualDB": 13.87
+    },
+    {
+      "id": "board-2",
+      "masterCorrelation": 0.99985,
+      "drySpeechCorrelation": 0.97962,
+      "speechOverResidualDB": 13.76
+    },
+    {
+      "id": "board-3",
+      "masterCorrelation": 0.99989,
+      "drySpeechCorrelation": 0.9924,
+      "speechOverResidualDB": 18.13
+    }
+  ]
+}

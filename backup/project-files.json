@@ -1,0 +1,4532 @@
+{
+  "schema": 1,
+  "project": "ai-video-1118-astra",
+  "entries": [
+    {
+      "path": ".",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794978577356061494
+    },
+    {
+      "path": "README.md",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 7718,
+      "sha256": "5b658ca33325e79c5010674c657b6d471c3a2f2816f9cfb395bec97198b709cf",
+      "mtime_ns": 1794978995149269581
+    },
+    {
+      "path": "assets",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794967431274026308
+    },
+    {
+      "path": "assets/score.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 22491044,
+      "sha256": "bbac1ebb016844ce7578911a468a0b93e5b43080aaeb1b5f2ea41be3711a71e6",
+      "mtime_ns": 1794968487070533707
+    },
+    {
+      "path": "build",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794978577356233367
+    },
+    {
+      "path": "build/cover",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794978951901098547
+    },
+    {
+      "path": "build/cover/final-352.png",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 89977,
+      "sha256": "5d2d909c88ba0d281f426f125a385ad3a4e01990f381e962dfcb8c49a3548a4b",
+      "mtime_ns": 1794978951900686595
+    },
+    {
+      "path": "build/cover/final-960.png",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 478472,
+      "sha256": "09f88d97029d6ce1e482db2ca1800036e5feee6fc671b1140631db94a2cb49fe",
+      "mtime_ns": 1794978951853241046
+    },
+    {
+      "path": "build/cover/render-cover",
+      "type": "file",
+      "mode": "0755",
+      "bytes": 250592,
+      "sha256": "86c7c1aa9e6f3ceed6b4c96ae1077431f9e50e1660788115e5d5b2e386e56d05",
+      "mtime_ns": 1794978950693573390
+    },
+    {
+      "path": "build/cover/review-352.png",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 89182,
+      "sha256": "7a1f2249161963822fe4ba1b0adc55e6e618a1a66eb6a4db21140db596b7a961",
+      "mtime_ns": 1794978696777583881
+    },
+    {
+      "path": "build/cover/review-960.png",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 544743,
+      "sha256": "8b49fe9741c31e7c6cdcca1e3276d413457f7fe608bf891731364b4e9aa96653",
+      "mtime_ns": 1794978696733253161
+    },
+    {
+      "path": "build/encoding-check.mp4",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 459299,
+      "sha256": "0d787b5fc5fc8c194614921dc3377afa89a92d9db0282d4d2abe35d9296b7094",
+      "mtime_ns": 1794968011109024510
+    },
+    {
+      "path": "build/film",
+      "type": "file",
+      "mode": "0755",
+      "bytes": 332824,
+      "sha256": "025ca73ff9073c1071aa19022afc04bcf99e24a6a56811017fdadc5de4bdfa6d",
+      "mtime_ns": 1794968491419773274
+    },
+    {
+      "path": "build/render.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 984,
+      "sha256": "75dd274de9633389c664c47fc2d0d766d876333a20795ac71f764d8654443352",
+      "mtime_ns": 1794968516632767135
+    },
+    {
+      "path": "build/review",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794968678651954834
+    },
+    {
+      "path": "build/review/astra.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 57664,
+      "sha256": "e6b31d688e770471ed596ad23cf6155fb90043c848f7a00e58ae239a47768e8b",
+      "mtime_ns": 1794968301163322360
+    },
+    {
+      "path": "build/review/board.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 70992,
+      "sha256": "67393506b60c90250fc746c854b35fda9ffe8609f3b5940e9afbabcdffab3c4d",
+      "mtime_ns": 1794968301471920300
+    },
+    {
+      "path": "build/review/data-before-refresh.sha256",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 169,
+      "sha256": "ad585c8a710fb2fa1cf713105449d9244b2bca5e873c8a16c6741cc25d41b98b",
+      "mtime_ns": 1794968678667853557
+    },
+    {
+      "path": "build/review/decode.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1794968598558579446
+    },
+    {
+      "path": "build/review/delivery.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1531,
+      "sha256": "893ea4b87a14a04465904a653ae855d513a2b0d920db17c9b8e027703e9a12eb",
+      "mtime_ns": 1794968606458720253
+    },
+    {
+      "path": "build/review/fable.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 62709,
+      "sha256": "dd9f9d3302583d3e0a66ed9f35f4f6bcbd02a428cee091445599c9fc1620e9da",
+      "mtime_ns": 1794968301093218187
+    },
+    {
+      "path": "build/review/frame-decode.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1794968323548048137
+    },
+    {
+      "path": "build/review/loudness.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1889,
+      "sha256": "e441a38f3a78dddc5a7abc89fb6893aea192761168018b1cfb977e1e33e79483",
+      "mtime_ns": 1794968606111461467
+    },
+    {
+      "path": "build/review/mix-listen.mp3",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 41045,
+      "sha256": "b42bc2a1670302e82c356763e02570e90dbebd5e9bb6f93224d71511736280ac",
+      "mtime_ns": 1794968301584942838
+    },
+    {
+      "path": "build/review/open.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 50792,
+      "sha256": "d9c1bebf76907b6f68e558b680d307b26c4ad7823e30741c6337e294296904c8",
+      "mtime_ns": 1794968300976726450
+    },
+    {
+      "path": "build/review/pair.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 52618,
+      "sha256": "1b645421b816c231969e8f9e9ab357a48c3be12c4f9c2622fd81ecb22213ae6b",
+      "mtime_ns": 1794968301230958902
+    },
+    {
+      "path": "build/review/rules.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 46375,
+      "sha256": "740b50bb66c1782d6b87a73f9adddaf9e9c92dd8966a060bbb75fc729c6a9af8",
+      "mtime_ns": 1794968301034591012
+    },
+    {
+      "path": "build/review/silence.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1590,
+      "sha256": "69c2b236452345246ab5fc07d335fb8f2d93352a7008ae9d4cfd0c8888781e38",
+      "mtime_ns": 1794968606222226580
+    },
+    {
+      "path": "build/review/sol.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 60036,
+      "sha256": "631d26264d6517515d5dace64104a5f9180e7cb4f571aca465fe092383381016",
+      "mtime_ns": 1794968301297978162
+    },
+    {
+      "path": "build/review/spectrum-final.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 58353,
+      "sha256": "a3ece90f840e1eed209b4fc0c9e8523604bb44208ef0b229054906427ad653a2",
+      "mtime_ns": 1794968622136209013
+    },
+    {
+      "path": "build/review/spectrum.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 58793,
+      "sha256": "a0fbc35e5170f1362b0f633f52683356890df86835dc980cc783338a4e165204",
+      "mtime_ns": 1794968301420515809
+    },
+    {
+      "path": "build/review/spread.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 52710,
+      "sha256": "0111256a72720dfaa62dea2c9cc0d7a66df3476ca335fded520202f59abebfa9",
+      "mtime_ns": 1794968301356439048
+    },
+    {
+      "path": "build/review/streams.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 958,
+      "sha256": "8f50da41c93d2c2d429f0a6fd9606779d8eacc769b4d172626f7fbc137371c67",
+      "mtime_ns": 1794968598557707251
+    },
+    {
+      "path": "build/stills",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794968220734310140
+    },
+    {
+      "path": "build/stills/astra-small.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 87019,
+      "sha256": "41e63e1839fb1f110f658a4ba09fe89916b6631e2433c45f222b5208b4342b3e",
+      "mtime_ns": 1794968011003262364
+    },
+    {
+      "path": "build/stills/astra.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 310900,
+      "sha256": "dec253e84485dcbb95afe9abff4b914a0b33fd27c56d43056f62c6c6f28841e3",
+      "mtime_ns": 1794968010577347699
+    },
+    {
+      "path": "build/stills/board-small.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 107307,
+      "sha256": "8471053b146b310dc0d8d3c0faa1d04790e0fcf84d8e3066adad162accbf9b37",
+      "mtime_ns": 1794968011225207126
+    },
+    {
+      "path": "build/stills/board.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 393383,
+      "sha256": "c717be8a78fa67f276ee847aaa1c6466f0aedd6881c689cdabfbf20c95fee35d",
+      "mtime_ns": 1794968010813991161
+    },
+    {
+      "path": "build/stills/encoded-check.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 40792,
+      "sha256": "9643844f31ed26f1bb1213c63d2682896d9bd4e3ff66aad593adbd366379c248",
+      "mtime_ns": 1794968220734399180
+    },
+    {
+      "path": "build/stills/fable-small.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 91872,
+      "sha256": "c17499265b43e84e63c7a479a7e07819609d7aed86c617fa89976a12648cb8b1",
+      "mtime_ns": 1794968010955127617
+    },
+    {
+      "path": "build/stills/fable.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 331736,
+      "sha256": "fc7d761c067166700afcd9a2e4b65d233f4162d455c5aad37c705ee5ecab8c69",
+      "mtime_ns": 1794968010529738778
+    },
+    {
+      "path": "build/stills/open-small.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 78283,
+      "sha256": "7400b70486accfc3fd5dc65b8b7ecfacae8994d04c1a53b63a21f29da8d1f5da",
+      "mtime_ns": 1794968010861301128
+    },
+    {
+      "path": "build/stills/open.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 284985,
+      "sha256": "577b5ec4fb2aea596d84f2b1e6836bb0eecfd255fba97b03522bf587a344687d",
+      "mtime_ns": 1794967980802545120
+    },
+    {
+      "path": "build/stills/pair-small.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 78928,
+      "sha256": "7c378734244cc37072f945b3c64ba3c46664639804704304222edf4345e32322",
+      "mtime_ns": 1794968011046609807
+    },
+    {
+      "path": "build/stills/pair.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 293529,
+      "sha256": "333a34d698fdf8bfded89159f92f205ca7fc0b72cf4d2ad9a896da23356ddb7d",
+      "mtime_ns": 1794968010622899234
+    },
+    {
+      "path": "build/stills/rules-small.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 71611,
+      "sha256": "d173a39e6a0acdd1829e780367b13bd5ceb18d91bd261bfff74d31de6a8713a1",
+      "mtime_ns": 1794968010907755650
+    },
+    {
+      "path": "build/stills/rules.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 280105,
+      "sha256": "6cd0fee014094a2cc7374c993ae3d17c9865de4ddaf4cd263d6c43e81329d7b9",
+      "mtime_ns": 1794968010480684502
+    },
+    {
+      "path": "build/stills/sol-small.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 89217,
+      "sha256": "7c68e129d0bdae48022bf7ceb5be11adddeb1b5a7a7b2803fafdad1d2d2f4d95",
+      "mtime_ns": 1794968011089982749
+    },
+    {
+      "path": "build/stills/sol.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 323368,
+      "sha256": "61d02bce7b4e0057b3b2a4a23c18a8e9a3c6388b8c22b1ff4e73ce2c40cc207f",
+      "mtime_ns": 1794968010669872999
+    },
+    {
+      "path": "build/stills/spectrum-small.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 87012,
+      "sha256": "1d56136d67c1da3e32801fa46da16a9c6d1ed72903ee31ff55c087c523339682",
+      "mtime_ns": 1794968011180274123
+    },
+    {
+      "path": "build/stills/spectrum.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 335350,
+      "sha256": "aed6d5dae49f5400c5226aa9bd93733749bdaf8da5af52b373a724d1cee4e8f7",
+      "mtime_ns": 1794968010766841607
+    },
+    {
+      "path": "build/stills/spread-small.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 79773,
+      "sha256": "a664a45879ff8acc30f796d63b2bf9a709cf7178f3f84165bc174f10e161391e",
+      "mtime_ns": 1794968011134434759
+    },
+    {
+      "path": "build/stills/spread.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 298323,
+      "sha256": "f57d64f40e46369df0e21bd2ae358838d3b08d00051c4d63d317b638214c034b",
+      "mtime_ns": 1794968010716643141
+    },
+    {
+      "path": "build/swift-cache",
+      "type": "directory",
+      "mode": "0750",
+      "mtime_ns": 1794975318191423607
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J",
+      "type": "directory",
+      "mode": "0750",
+      "mtime_ns": 1794975167465642616
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/AVFAudio-10RQBB3TR3IEU.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1061240,
+      "sha256": "b1e3e9a277ceb1837e19285112e266dd19dd939c6a47b2fcfa88d479be287ffa",
+      "mtime_ns": 1794975166750181396
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/AVFoundation-G8HCVCX3ZNUT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4496576,
+      "sha256": "4f4a40e06f4087b3bb61e3347629a476a83abe502753087f802f3f41bcc16bf4",
+      "mtime_ns": 1794975167399706382
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/ApplicationServices-2B43GCM34CGWZ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1088136,
+      "sha256": "7a3fdfb419e5b4a7ae4426434a939856a2d7f2e1239bbccfde0906acaa4fb974",
+      "mtime_ns": 1794975166230723489
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/AudioToolbox-1ECKJ40D6CU96.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1570352,
+      "sha256": "a3d6d445ffded3557b46d7795353f776dcef273db1c5442a30bab853effd34b9",
+      "mtime_ns": 1794975166693210238
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CFNetwork-2BKHRDMU04GNC.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 311880,
+      "sha256": "9765ab4665b5e7537216645c00da71bc710778937a4bdd4e1551b567d136dab2",
+      "mtime_ns": 1794975165344243379
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CUPS-1EVAIEJ56V3IX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 685200,
+      "sha256": "145fb8bf172604c56bf827bae0a34e3c209d3ce9eca041761c1be0a9070e04cf",
+      "mtime_ns": 1794975166187163549
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/Carbon-1ZCCFPKEA64BM.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2226112,
+      "sha256": "827c1c85b4c37ec00caf54331726cc906a639ad3763b4be7ab2a64a620422862",
+      "mtime_ns": 1794975166645110032
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/ColorSync-N2L5TNCU0EUY.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 131256,
+      "sha256": "2e3372ccddf9b36f97bba6ca7cfc95f9cf840fec6d1b16d88fb25156518db6f5",
+      "mtime_ns": 1794975166103591325
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CoreAudio-3C6HRHCQIN8MI.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 284208,
+      "sha256": "fb4735031764da45c12feca212ed79870fbc51d769a52ef0ab29b83b294f448d",
+      "mtime_ns": 1794975166422168910
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CoreAudioTypes-37YSZJR8D5DV8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 236496,
+      "sha256": "9ec0de74b9f69b1a832915a51cd5c09ed944300a1f28e46ccf079be527e4f976",
+      "mtime_ns": 1794975165860944411
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CoreFoundation-O77KQPXMH550.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1272880,
+      "sha256": "a6e5296511bf37ff27b740983b0eddde4a48796e9f29c0c71b2bbc4db61b9e90",
+      "mtime_ns": 1794975164868955027
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CoreGraphics-33FA58TYDNO23.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1309408,
+      "sha256": "85f22902ee7005b45c98def40ee363fdd706d8fc9c0cbf14c8dad130c5e755b9",
+      "mtime_ns": 1794975165932412938
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CoreMIDI-RN0F7ZZDPMKT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 420720,
+      "sha256": "95170a20fe908e951213b49517675bfbb29dcd636f0fcce8646fb7f146c9c2f7",
+      "mtime_ns": 1794975166513070150
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CoreMedia-2IU4E6T90KUGE.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1158472,
+      "sha256": "39ce42880193985ba330d3b26beeb63ac0f7ea8bb6bc6e661534c921f7df2f5a",
+      "mtime_ns": 1794975166454239311
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CoreServices-3404J3IP7CNHC.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4120168,
+      "sha256": "e59dace6391d8378b12f97c4da5557a39d97adaf5bb923f2aff3dbf0d6104ef4",
+      "mtime_ns": 1794975165461510105
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CoreText-3TBIZA5CM260V.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 904960,
+      "sha256": "e32b476b19fa63b0a833991bb3a8c0cd401282fe22e54fdf1a596770b40584c3",
+      "mtime_ns": 1794975166081262905
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/CoreVideo-3KC2I317RW4SK.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 370368,
+      "sha256": "0441c4a9751183790dfd0b99015603256dd08e2ca7136f1a275d58e2ad4af44b",
+      "mtime_ns": 1794975166375434559
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/Darwin-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 6571624,
+      "sha256": "6f9ecdecc18258edf9d61c434054384e18537e95ca07ff9ab5a219a1cc031a9b",
+      "mtime_ns": 1794975164678854545
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/DiskArbitration-17OM9RNNM8OQ3.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 138136,
+      "sha256": "f91faa803ab462539567b55f7af1dffbcb63358c074d7cb06eab3c3e72d4b56b",
+      "mtime_ns": 1794975165294763360
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/Dispatch-TXIN2YKH6HP8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 277832,
+      "sha256": "1d685877bda50f91e13e83f787696d49e1a9c1ed0da5099b5f51af1820fd5b65",
+      "mtime_ns": 1794975164827296893
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/Foundation-1GPCXPOHRUX1F.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 5897856,
+      "sha256": "c8bd3e053510ed6fe4408ddd0f9c1e1c5bfee6cc8e80dad2dfe6341aa672b1e3",
+      "mtime_ns": 1794975165635182080
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/IOKit-318B70HEO9F5Y.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3836336,
+      "sha256": "d23677f3c07a8e9703de1f477322973ab2326eeed81072f37bfa08d36edb36df",
+      "mtime_ns": 1794975165275987888
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/IOSurface-1XRFTW4FJX03A.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 199584,
+      "sha256": "7729f541bd9dc11294fda5e93e58a30834b465d2fb5cd3a3dcf861b3bf87fff3",
+      "mtime_ns": 1794975166265282853
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/ImageIO-1WBGKMY87IJ9K.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 828784,
+      "sha256": "e018ed60281d4e989e05c393977d03787379265d06427457d809e3bc495a38fe",
+      "mtime_ns": 1794975166150293677
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/MachO-3D0ICV0M03KBZ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 375504,
+      "sha256": "b361a301ff4f4fd117b07c5c2b6e78022fa287fa81c41e9dca1104850deb2806",
+      "mtime_ns": 1794975164767627400
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/MediaToolbox-1MH4IMPVVQDA.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 73608,
+      "sha256": "2ff57a533f9351220135b264309836669ca7469aacd29c9fef19caec5be97be0",
+      "mtime_ns": 1794975166864804286
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/Metal-1BPVH0CF4URDJ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1850904,
+      "sha256": "dd0924011eb58785c7ce10ec7a97ee70d351ca3a3196644f98efb8b9f262bbdb",
+      "mtime_ns": 1794975166352751102
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/ObjectiveC-2N44HAZ9G1RM8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 313528,
+      "sha256": "2bb5b8136657b66555d2fe490b4fddf64b2cae1846d1377dc3f1bb23885a58e4",
+      "mtime_ns": 1794975164781161241
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/OpenGL-JM1SO6JQ50V2.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2514792,
+      "sha256": "3f15fb70c4bf55cc5bba17a1a908243af4326ae32acac2b37459884cada298df",
+      "mtime_ns": 1794975166021302125
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/QuartzCore-2KRCCQVRJNUNG.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 540704,
+      "sha256": "1bb10385c5927231315a6e9eb4dd6335cf5ac571438cd4a3dbb5441d93a3d13c",
+      "mtime_ns": 1794975166923624875
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/Security-1A91GJAZPO663.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2905536,
+      "sha256": "7ae0744531eedcd0a58be0652000904cb75b903ea9d543a93ec8c1e4ff56e180",
+      "mtime_ns": 1794975165091184285
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/Speech-CEVBUJODCY0E.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 290856,
+      "sha256": "35a4e981ed1338131d666a514a59472d1250e01d271a29fc4614bba43c58f31c",
+      "mtime_ns": 1794975167440847608
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/SwiftOverlayShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 59112,
+      "sha256": "7289deae99334b5d861c33e93116fe66a1b19012e119dbc08d2e213058d28c90",
+      "mtime_ns": 1794975164698447547
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/SwiftShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 135416,
+      "sha256": "736ed37441c65ddde5ff1bf673bc1ff805313c669654fe3f81a66e4119f4ce28",
+      "mtime_ns": 1794975164406003326
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/UniformTypeIdentifiers-383IBW9H10NHK.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 195848,
+      "sha256": "2f33e0a7c611bdc9542329abc71835c578fbcd2df97dace2225782d60c6ad927",
+      "mtime_ns": 1794975166833825952
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/XPC-HTG3ZZ3Q75JL.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 211880,
+      "sha256": "491ab79b93ac14658259e6b78fa3fcb23ce78ab65de48a7481047c62d0c3a3fc",
+      "mtime_ns": 1794975165005544426
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/_Builtin_intrinsics-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2973456,
+      "sha256": "d536bc2ac4c2d53bf4c544fdf3c4fd905bf13aefa7afa73afa0399d2c22a9236",
+      "mtime_ns": 1794975167091840139
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/_Builtin_stddef_max_align_t-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31376,
+      "sha256": "163ef8172bb4d660616c480c77fb1027fd8d3372d160390aadb37e309db28bb4",
+      "mtime_ns": 1794975164454026283
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/_SwiftConcurrencyShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 32120,
+      "sha256": "5ee15f5226f918aa299ab991c6601077c6014e4bbf9f29e66091d04f0577fd1b",
+      "mtime_ns": 1794975164411779491
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/launch-HTG3ZZ3Q75JL.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 93952,
+      "sha256": "02ca4816f7a74932f5faeb367cf1351746641ddc4d0b041cedf000db8ca78f64",
+      "mtime_ns": 1794975164991590298
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/libDER-1KG5XVUK3YY6O.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 56928,
+      "sha256": "bd5f5fceeeff47b431daae45b3ecf65b70cda65338c11829b78b54202412019f",
+      "mtime_ns": 1794975165025124970
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/libkern-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 70568,
+      "sha256": "ebc047e50890b8bdf2f880bc1a9828837e685b9444027393ea60b1386dc02347",
+      "mtime_ns": 1794975165140402516
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/os-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 156720,
+      "sha256": "f37460c70d02fce2786ea7bcecd4059ad387ea9d90aefd5863f74c0e7d792455",
+      "mtime_ns": 1794975167464763171
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/os_object-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 63400,
+      "sha256": "6a992e8e53c24b0cdeb1eace6e7449eaf21af06f7c8fa3257bd7cd63cf685c1d",
+      "mtime_ns": 1794975164791904791
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/os_workgroup-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 87824,
+      "sha256": "b2ea9798547484b8e9ec45b4b9f3d410c1b198a9ae51bccb45ab9120ecc90ce6",
+      "mtime_ns": 1794975164808648460
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/ptrauth-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 42992,
+      "sha256": "1cd4b49e7bd5e6992f22fea13c03516675634ad5dc0e44f4f69744298ae88307",
+      "mtime_ns": 1794975164716118036
+    },
+    {
+      "path": "build/swift-cache/1GFT14LVAF02J/simd-31XWZ0FWXSYU3.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3275368,
+      "sha256": "99aab3537384faa659a25e207317fa9064cfc0bae6ccf4dd58f8b22c398b5a1a",
+      "mtime_ns": 1794975167293951486
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP",
+      "type": "directory",
+      "mode": "0750",
+      "mtime_ns": 1794975165799424320
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/AVFAudio-10RQBB3TR3IEU.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1061144,
+      "sha256": "9763c2cd3d7ccf02eda55f2b319803f1c7a84fe0354c0ba5d0d94fff28ca96eb",
+      "mtime_ns": 1794967971303401858
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/AVFoundation-G8HCVCX3ZNUT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4496504,
+      "sha256": "fae940b3bcf271c685f057dcc1aa2095854d012efd3ec04e7f98ee4802554ad3",
+      "mtime_ns": 1794967971778633461
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/Accessibility-347LCNPB2L0DW.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 158016,
+      "sha256": "9ca09c1bb907da04a1970cbf2707336c6f8a4d4ca3cc7dfe1a15e6d7b23e2de1",
+      "mtime_ns": 1794967966760473110
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/AppKit-16Q1S0RWLS3WT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 9275832,
+      "sha256": "556ca6743922c791c856b8aabd42f4853a34acd244584ec6dd9a19a449d50b8c",
+      "mtime_ns": 1794967968162409770
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/ApplicationServices-2B43GCM34CGWZ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1088064,
+      "sha256": "86c2c2f948f988af9d311f2af43162dcde400d76df634ba038ed024edd721e10",
+      "mtime_ns": 1794967967254061109
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/AudioToolbox-1ECKJ40D6CU96.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1570272,
+      "sha256": "785ab930e7667e2e7ed2c72fae54f1586f6cd77bfd302a8c9fda71acb6f313ae",
+      "mtime_ns": 1794967971167844986
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CFNetwork-2BKHRDMU04GNC.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 311808,
+      "sha256": "64a42fa3a834ff56cb45c1a52fbb6b1ce7fc696894477803127e6514a4c8c263",
+      "mtime_ns": 1794967961679675228
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CUPS-1EVAIEJ56V3IX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 685120,
+      "sha256": "de648d90c82f6b5de483143390f10985722c0b056922017a534d9bc802713329",
+      "mtime_ns": 1794967967206993096
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/Carbon-1ZCCFPKEA64BM.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2226024,
+      "sha256": "99ba8713a2733470c3c3e405d45cb3af24bc679a76a664bcf52562fdc16aab84",
+      "mtime_ns": 1794967971118975249
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/Cocoa-1YXRGV44ALEGH.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 56168,
+      "sha256": "6dea7751f5ec15e6147bafad3062633cc3bd29f00bf79a48dcaf85d3bea45aa9",
+      "mtime_ns": 1794967968573828149
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/ColorSync-N2L5TNCU0EUY.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 131184,
+      "sha256": "e94a05d5c727d7b980033d3c281c6657900fde611e18061ae8268d79d2bbd8b1",
+      "mtime_ns": 1794967967114857082
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreAudio-3C6HRHCQIN8MI.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 284120,
+      "sha256": "8feee323772e07a241ddb7977590f35c657b7bb1eb085049b12b1fedbb2dc742",
+      "mtime_ns": 1794967970829467736
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreAudioTypes-37YSZJR8D5DV8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 236416,
+      "sha256": "65ea4dac8474c80bc965ef1656924551fa2e6bba2aea057e42f0b96bb402b689",
+      "mtime_ns": 1794967970773458105
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreData-CSLFTO56WI3.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 769064,
+      "sha256": "7a04ddf8fa0f58fa4c116f80be730f45793a2e81de55244be8098f09a705ec40",
+      "mtime_ns": 1794967967338925563
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreFoundation-O77KQPXMH550.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1272800,
+      "sha256": "21f0b109fbf45bfdcc5d75748a42bb34983d26e790449b33f026dd88182e472a",
+      "mtime_ns": 1794967960677312164
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreGraphics-33FA58TYDNO23.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1309328,
+      "sha256": "1b9a4ef9e6965f16baf3a4d05da0c221606f97d1bbee67c83a793d5d8b3eff80",
+      "mtime_ns": 1794967966727976299
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreImage-2DROYPMP3E12I.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1108416,
+      "sha256": "8bf90ef860a0b00897fdc3e7fa1a4c2de8ac53f383ad70d86a6ae4a5ef39f51d",
+      "mtime_ns": 1794967967674240150
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreMIDI-RN0F7ZZDPMKT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 420640,
+      "sha256": "5320b9877d129e687037bd3a0b89b5f3eaa977a726b6de1499d0c5868c6e7e7b",
+      "mtime_ns": 1794967970966232381
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreMedia-2IU4E6T90KUGE.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1158392,
+      "sha256": "f7f836fb812668cbee0274557d729ab67a358cd2d3ee7fbf9f1ddc35e96df476",
+      "mtime_ns": 1794967970860912729
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreServices-3404J3IP7CNHC.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4120088,
+      "sha256": "e382809c428614731729981456d171f4e78b3f3e034f88cb85e69c80e7bc758e",
+      "mtime_ns": 1794967961803045697
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreText-3TBIZA5CM260V.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 904880,
+      "sha256": "2977ebeac495ca7b7887def042b6359dca882aef30a5e30c5f4b4f09250af39f",
+      "mtime_ns": 1794967967090354736
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreTransferable-3CC5OGHRN6OFT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 54288,
+      "sha256": "40b2c79184825a1278da3126bed3ffff884a460cb96e68f54d18148a4e1682dd",
+      "mtime_ns": 1794967968616390479
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/CoreVideo-3KC2I317RW4SK.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 370296,
+      "sha256": "86b9ae67723372389bca19c78b8c776c575756aee95a3598d9bee448548f7249",
+      "mtime_ns": 1794967967612366898
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/Darwin-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 6571536,
+      "sha256": "aa6669a79f2d592a21a607f35ae59a2f056a723ee08272224a94f6d7ffcf8cac",
+      "mtime_ns": 1794967960020703658
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/DeveloperToolsSupport-PTQFR7NCHB5R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 30016,
+      "sha256": "122f274af5862dd6378d37cbd6e41f9d0b859e23762f01265534e7f896142085",
+      "mtime_ns": 1794967969040991788
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/DiskArbitration-17OM9RNNM8OQ3.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 138056,
+      "sha256": "e75a4447a7e0f27a9a0bfe4559bddc3d00161821bb85aaf011927b1c74795330",
+      "mtime_ns": 1794967961620191399
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/Dispatch-TXIN2YKH6HP8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 277752,
+      "sha256": "f76cf71912e43bd112d3a1c5838efd8bf74a95363c34ff1fb4e4c9d80edcfa8f",
+      "mtime_ns": 1794967960632677782
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/Foundation-1GPCXPOHRUX1F.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 5897784,
+      "sha256": "ac66fcf5e5a0388a5704bdb4624c296a6f519eeb064971812183893a7bc53d43",
+      "mtime_ns": 1794967961986922479
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/IOKit-318B70HEO9F5Y.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3836264,
+      "sha256": "50671a600809c84d71869f2d0a426ea6c538528f966acaceff940820f6f1fa1e",
+      "mtime_ns": 1794967961601681589
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/IOSurface-1XRFTW4FJX03A.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 199496,
+      "sha256": "f4e302c75d7a97304606179ea5556397cbdf1f687c67dd7eeed16d9efa99e51a",
+      "mtime_ns": 1794967967497182475
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/ImageIO-1WBGKMY87IJ9K.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 828712,
+      "sha256": "8ca262ea076704d01dab6c4f19eedd87bd71d95751b509422cfb190c92c86c8d",
+      "mtime_ns": 1794967967167586095
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/MachO-3D0ICV0M03KBZ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 375424,
+      "sha256": "efd76d89450fd535542ea2ce5dc285594539fae52e437763319cd7689bd04eeb",
+      "mtime_ns": 1794967960568222359
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/MediaToolbox-1MH4IMPVVQDA.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 73528,
+      "sha256": "6c6ebea2f7073c7785751f9b78570780b005ab0836407e44c14b52564f3ef44f",
+      "mtime_ns": 1794967971187207950
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/Metal-1BPVH0CF4URDJ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1850824,
+      "sha256": "e2863cac9c517ec5d8d66847e53b65433215133805cf0fbf92ba47015c3d4854",
+      "mtime_ns": 1794967967591053254
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/OSLog-101MBK8E1ZDLG.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 146136,
+      "sha256": "87098ee2fefba7f5e154208c7b6fc0c9d3f09ee033d32da8730ba520ef68e84f",
+      "mtime_ns": 1794967969132678350
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/ObjectiveC-2N44HAZ9G1RM8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 313448,
+      "sha256": "e658bdd5306cd0d86dbc3799de8037f14ffb7a8459b2e8416aae1ca0f5e3b68b",
+      "mtime_ns": 1794967960582332651
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/OpenGL-JM1SO6JQ50V2.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2514704,
+      "sha256": "7a7efd76d841e4a91fc8ecf78bff2cee8ad47222fcc95341a93a572e28a16288",
+      "mtime_ns": 1794967967454255276
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/QuartzCore-2KRCCQVRJNUNG.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 540632,
+      "sha256": "bae0472c14b68d68eebd025f42a107a34dca7044d857021cae2296b1aeaecb5c",
+      "mtime_ns": 1794967967880418645
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/Security-1A91GJAZPO663.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2905456,
+      "sha256": "9dd3ca992ffab508b035c217de68b5f94170b2188538085137dc22251b26b6f5",
+      "mtime_ns": 1794967961388838442
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/Speech-CEVBUJODCY0E.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 290776,
+      "sha256": "cfa31aa8f0b7e2ed5f72fb64bfe91a61628ba409edddefbb9bc3182d9a8604b8",
+      "mtime_ns": 1794975165796232909
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/SwiftOverlayShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 59024,
+      "sha256": "7598f35e6b017a6cb1e654d731632e05ac0ecc4365e0424afefaf29f68a1397e",
+      "mtime_ns": 1794967960039923582
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/SwiftShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 135328,
+      "sha256": "030837924fba63fc57d51aae5e804af5795a319cefe46c90dff53e8fa020c810",
+      "mtime_ns": 1794967959329278875
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/Symbols-32ABDAB9I7N2Y.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 91280,
+      "sha256": "723c7fd837e6af9427ad4592bcc8f2250bbb808d90d6bc9bb8868e0bcafaa30e",
+      "mtime_ns": 1794967967756852513
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/UniformTypeIdentifiers-383IBW9H10NHK.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 195768,
+      "sha256": "47203ae721793ceea69808bad556071f957a2bc9e2b2edf6af4cb61fd43c1691",
+      "mtime_ns": 1794967968683137701
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/XPC-HTG3ZZ3Q75JL.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 211800,
+      "sha256": "4ecf69c3ebee3cc295fd4e720ce78222fe5f6f3ae26c24637be6600c453127ad",
+      "mtime_ns": 1794967961296420099
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/_Builtin_intrinsics-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2973376,
+      "sha256": "99d37034dc6172282baf1f8bcd73104653e5f7f607b527c102070baa18765db6",
+      "mtime_ns": 1794967971460204916
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/_Builtin_stddef_max_align_t-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31296,
+      "sha256": "87633abdbc0277e1d5827fbe1cbfcd37c6fcd648e75159b7d3c49fad3f91b8db",
+      "mtime_ns": 1794967959743915581
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/_SwiftConcurrencyShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 32048,
+      "sha256": "856570215fd935d88ee67f02e175c7b6b11d700a1c2e08086a0f5c7ee4a1aa13",
+      "mtime_ns": 1794967960180357965
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/launch-HTG3ZZ3Q75JL.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 93872,
+      "sha256": "3bacbb50c623a4b26726f00f8d2fda447083168ca5a1e211548a627c056a9b42",
+      "mtime_ns": 1794967961281913772
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/libDER-1KG5XVUK3YY6O.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 56848,
+      "sha256": "b27eb54fa3aa871c146c8dcc486a64f211157f2893cb456674014dd4e18428d3",
+      "mtime_ns": 1794967961319435967
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/libkern-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 70488,
+      "sha256": "c5f80e4037ce8288c5b2fbe5f363bca13d4c4a130f69cb0bb17c5a94c0bc8ea1",
+      "mtime_ns": 1794967961451064481
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/os-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 156624,
+      "sha256": "bae780717ed3a85aa6aed9c6af8a0d6c0b98731af2c9457ae3769e17c99c3142",
+      "mtime_ns": 1794967968731922896
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/os_object-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 63328,
+      "sha256": "40a5907292c4c16809b21b03d3b18e2a3c2d33bece94f88a0341927bbb7394d2",
+      "mtime_ns": 1794967960593359071
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/os_workgroup-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 87752,
+      "sha256": "0319bd9955d6fe5a9ab721a1a5e8b8b852df8b12435348dd5cfcf106e16ccaad",
+      "mtime_ns": 1794967960611299806
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/ptrauth-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 42912,
+      "sha256": "45555f0d0f4d5e24ec52614f6cbb6c1db0a880f9ce781bef8f6943a84d0b32ad",
+      "mtime_ns": 1794967960506870307
+    },
+    {
+      "path": "build/swift-cache/1L1YZ2YXM42KP/simd-31XWZ0FWXSYU3.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3275288,
+      "sha256": "3406c6e80a1b280209950a5ede5738e2d66f6f204149ee072b63b40fc5aaeff6",
+      "mtime_ns": 1794967971669243619
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9",
+      "type": "directory",
+      "mode": "0750",
+      "mtime_ns": 1794967974562282787
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/AVFAudio-10RQBB3TR3IEU.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1061240,
+      "sha256": "4870cad6b9dc433791242eb76009fe9d92c54dcaf5979f9dedadcadd188362c3",
+      "mtime_ns": 1794967974092710850
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/AVFoundation-G8HCVCX3ZNUT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4496592,
+      "sha256": "a1045b8b7f218f328c624259d990aa0464f8d858ac1213fe36b2f7003c00a154",
+      "mtime_ns": 1794967974555113934
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/Accessibility-347LCNPB2L0DW.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 158104,
+      "sha256": "0647f6afc76d6475f25f8d5324a0d381c9a8d92ae244344cc5d6f90d17d84d63",
+      "mtime_ns": 1794967969462338645
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/AppKit-16Q1S0RWLS3WT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 9275928,
+      "sha256": "dcbd940124e35e71586abf71f944a5f41268ef377af08d809640707961f1b14b",
+      "mtime_ns": 1794967970560319713
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/ApplicationServices-2B43GCM34CGWZ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1088152,
+      "sha256": "e2eeb9138b82215b4c8de21c0e6d61463133c6a8b31b215142efc9dff1195371",
+      "mtime_ns": 1794967969705570176
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/AudioToolbox-1ECKJ40D6CU96.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1570360,
+      "sha256": "257abfc1cd23ac10c2260f7f00e2d4ca8adcd3d994a72d561e116b2da7c5936e",
+      "mtime_ns": 1794967973969939331
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CFNetwork-2BKHRDMU04GNC.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 311896,
+      "sha256": "87390c3a7660dc0662367f9a6d498fd98a33912353893cc3a1e987b418783689",
+      "mtime_ns": 1794967966335913634
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CUPS-1EVAIEJ56V3IX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 685216,
+      "sha256": "2a86a6325cdaf76d5f01ed1b8a0ee724ee676e7e257ed9a48675e10201554880",
+      "mtime_ns": 1794967969661304414
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/Carbon-1ZCCFPKEA64BM.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2226112,
+      "sha256": "85a1c4274c1b903f6ebe46e0d632950bf614b42fc08a97268052bd2148fe35f3",
+      "mtime_ns": 1794967973920708684
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/Cocoa-1YXRGV44ALEGH.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 56264,
+      "sha256": "c3715b4fecdd29b8a048c37a826bb51bf7c886100ed497d36a82a951f3d7e1de",
+      "mtime_ns": 1794967970599514883
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/ColorSync-N2L5TNCU0EUY.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 131272,
+      "sha256": "202f527c47c527f474265f8c3458e683b276f4a88f942c243b4aec6c03621fd7",
+      "mtime_ns": 1794967969576272712
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreAudio-3C6HRHCQIN8MI.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 284216,
+      "sha256": "5c0711e1ecc52eb12ad59b9d00bf610b7a27b9b17ca536a913ce048366b5578f",
+      "mtime_ns": 1794967973659834997
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreAudioTypes-37YSZJR8D5DV8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 236512,
+      "sha256": "0ce36a798301f0de2572daeb18fcc943506538f48c735f55c850f8fe5280512a",
+      "mtime_ns": 1794967973611257589
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreData-CSLFTO56WI3.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 769152,
+      "sha256": "4f33389843c65fbd5bd63cbbcfc70effb1ec2eb26a5ece204130a59060f8450b",
+      "mtime_ns": 1794967969781599678
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreFoundation-O77KQPXMH550.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1272896,
+      "sha256": "4b78d3962ba75d2e9b2cd9acb3cc8e9a2a81f3efbf76384e6bc8d80ac162f05d",
+      "mtime_ns": 1794967965861171232
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreGraphics-33FA58TYDNO23.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1309424,
+      "sha256": "d8da8a8d7aa4c00a726f239f4877f4ecc10ffba8c0891170b08eec81b30ba526",
+      "mtime_ns": 1794967969435374127
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreImage-2DROYPMP3E12I.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1108504,
+      "sha256": "f9104793b7ff5015b494d562b980cb5f00c65516ac90308610e6b8a4547abdd9",
+      "mtime_ns": 1794967970101232330
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreMIDI-RN0F7ZZDPMKT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 420736,
+      "sha256": "b8dac831d5375c318d51776fcddb64747330431b291a315edba474db5ddd448d",
+      "mtime_ns": 1794967973786046340
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreMedia-2IU4E6T90KUGE.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1158488,
+      "sha256": "b9c1888af556397c5acee2141e70dc76bc8af0992113c911310d300a9a608c02",
+      "mtime_ns": 1794967973692001605
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreServices-3404J3IP7CNHC.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4120184,
+      "sha256": "0dcbc826389e8fbb7755f8853acdaaa1d2fd06cb4f1fb2f798af02ffd817931b",
+      "mtime_ns": 1794967966454851335
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreText-3TBIZA5CM260V.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 904968,
+      "sha256": "f0ac6cfd5c1102b6bbe426b071227d23dddb1bf10cf5bced29c3cf1c682556e0",
+      "mtime_ns": 1794967969552362190
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreTransferable-3CC5OGHRN6OFT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 54376,
+      "sha256": "55802b12eebabea3446703ffbcc4bad1ceea1fbd1a04d24f5b04d026a1665cbf",
+      "mtime_ns": 1794967970620701279
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/CoreVideo-3KC2I317RW4SK.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 370376,
+      "sha256": "73071c7dd2019497468ab0f880cf7a292fb7d779d2b384186e5e9b00e5baa468",
+      "mtime_ns": 1794967970041516962
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/Darwin-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 6571632,
+      "sha256": "032d7c989bebeeae56a50c2ab841aac84fb07e3fdcd1a416b5d9010fc6652316",
+      "mtime_ns": 1794967965675415935
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/DeveloperToolsSupport-PTQFR7NCHB5R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 30112,
+      "sha256": "10093878ca775c7f42e3cc6e725ed1d098c9e3298451f2f77c706221c45ca93e",
+      "mtime_ns": 1794967970676059669
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/DiskArbitration-17OM9RNNM8OQ3.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 138152,
+      "sha256": "7605baaa0162c3d20d39ab519e508be256891c42dbaec2ae9d539b136992c0f3",
+      "mtime_ns": 1794967966286591321
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/Dispatch-TXIN2YKH6HP8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 277840,
+      "sha256": "84cd34d50eee9e9b6605c37f64501a3b7163c9c972c2dd8089624ca9a8408bf1",
+      "mtime_ns": 1794967965819269435
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/Foundation-1GPCXPOHRUX1F.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 5897872,
+      "sha256": "4f737d6f25a9ffded785fda0d9b2d6897217ee37be5b5c8222089b431d8f012a",
+      "mtime_ns": 1794967966631267811
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/IOKit-318B70HEO9F5Y.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3836352,
+      "sha256": "1e83d8dd7719869be6882c2d6e39500df4ea4761878ad8980a36e489422211e7",
+      "mtime_ns": 1794967966269091871
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/IOSurface-1XRFTW4FJX03A.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 199592,
+      "sha256": "061ce5e776eefc419d3ae794b8e0370c59498028162422c3c8cc3631fcbfd0bd",
+      "mtime_ns": 1794967969928874710
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/ImageIO-1WBGKMY87IJ9K.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 828808,
+      "sha256": "0dec9abb1ff22bc3465d5fbaf36217fc983631cb443ce76063809b91e45ed390",
+      "mtime_ns": 1794967969624178212
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/MachO-3D0ICV0M03KBZ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 375512,
+      "sha256": "1b557b71848aa5be888f5c23fb5ed4c6257faec3829e7839d3fe6a11a9a01882",
+      "mtime_ns": 1794967965759234822
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/MediaToolbox-1MH4IMPVVQDA.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 73632,
+      "sha256": "7bb392cc26afea14d27747c0d7120d6918afe4a3d127976e8df6b263d00abe55",
+      "mtime_ns": 1794967973989330128
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/Metal-1BPVH0CF4URDJ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1850912,
+      "sha256": "1f7b4a14b3c171558e8f29975e5119ab8d365d6de8c694537a5fce3c95a2933c",
+      "mtime_ns": 1794967970018371637
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/OSLog-101MBK8E1ZDLG.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 146224,
+      "sha256": "c9d36d1ce4d906bd8a01646d21f491fc25bbbd159f9f8fcf7997b42432b04319",
+      "mtime_ns": 1794967970701908246
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/ObjectiveC-2N44HAZ9G1RM8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 313544,
+      "sha256": "7c997aa4652d774051c3b76cc6cd29c562fc1963e1065cfc227c59169b807df4",
+      "mtime_ns": 1794967965772963119
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/OpenGL-JM1SO6JQ50V2.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2514800,
+      "sha256": "1a67dd30c21eec8e6c1a5b0891f3d47d424d121b50dd7bf695d5a502b933b692",
+      "mtime_ns": 1794967969889224296
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/QuartzCore-2KRCCQVRJNUNG.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 540720,
+      "sha256": "7eb25bbc9d758ec17c4849df47e3512e74b5113697507dd877869d647c253881",
+      "mtime_ns": 1794967970282793147
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/Security-1A91GJAZPO663.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2905544,
+      "sha256": "3f893498725c911bd865ef18dd3e27e59bd1d870ead1285c24444919ecdc55d7",
+      "mtime_ns": 1794967966084364601
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/SwiftOverlayShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 59112,
+      "sha256": "22db67a03396d51bae13fae660b068c31a6f10c0a8e03ee9e6bea31e2f1f2a8a",
+      "mtime_ns": 1794967965693580042
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/SwiftShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 135424,
+      "sha256": "9c32516992e7ea6af608461ca25ed44c439914f837b4da411345411701557a73",
+      "mtime_ns": 1794967959313893060
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/Symbols-32ABDAB9I7N2Y.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 91376,
+      "sha256": "13755892c1c2ac94de1f8caa12a05f3a0a3a4efab4a167e2d340850e0c0ba6bd",
+      "mtime_ns": 1794967970173519762
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/UniformTypeIdentifiers-383IBW9H10NHK.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 195864,
+      "sha256": "98d9e87fb19f2c0f62b0cbdb76b7249919e37fe7cbfd1d0cfa79126f973df50d",
+      "mtime_ns": 1794967970649248732
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/XPC-HTG3ZZ3Q75JL.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 211888,
+      "sha256": "59526f584460542873606f8f94e0e5b0689305fe71049229325e220735b9f9ec",
+      "mtime_ns": 1794967965996700271
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/_Builtin_intrinsics-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2973464,
+      "sha256": "d1d6243bca32489f91d599d90a7f9ec4c220172b07c139a90d22d2e7cdbad7b6",
+      "mtime_ns": 1794967974240680080
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/_Builtin_stddef_max_align_t-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31384,
+      "sha256": "96bc9a31d6904452e347d6fca2c6f4c4f47d3865bd7f0f6ce0244a8994b8b635",
+      "mtime_ns": 1794967965451278789
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/_SwiftConcurrencyShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 32136,
+      "sha256": "5d9c40861e2647b73c7434d5ff6a7a18464857af57947a3bded2416470ad3531",
+      "mtime_ns": 1794967959431139369
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/launch-HTG3ZZ3Q75JL.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 93960,
+      "sha256": "b31781e441e8f7d147e8bad2db102443e65db0eda1be67a178923ee773f3341c",
+      "mtime_ns": 1794967965981804241
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/libDER-1KG5XVUK3YY6O.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 56936,
+      "sha256": "b12fc7241718eab6bb5cc5257a019fb0fea1a41f67c99abaa3261727d9c1b9e6",
+      "mtime_ns": 1794967966016568936
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/libkern-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 70576,
+      "sha256": "2d74f80c84b2c5346068c434cf8a60d31aafe4b24345a128877e769507541250",
+      "mtime_ns": 1794967966130696541
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/os-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 156720,
+      "sha256": "93b3a3de6346e24ca1acf6faab56ab0254110a0462808ce1022c4f35d9f2ca31",
+      "mtime_ns": 1794967970669256936
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/os_object-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 63416,
+      "sha256": "7cca6536da0815d2297d3684990a73da248d8443ae7eacb1710bd0f36f5b57d4",
+      "mtime_ns": 1794967965783642253
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/os_workgroup-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 87840,
+      "sha256": "c7c6416e17136b3905bab7d29b3d4c8fcfbbd52f81c01efc9401dc52c8ac1c3b",
+      "mtime_ns": 1794967965800736292
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/ptrauth-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 43000,
+      "sha256": "65a992e1e8a005de8fd07a9dffa874fe72ccb7656a927bd140272f9683a37721",
+      "mtime_ns": 1794967965707885872
+    },
+    {
+      "path": "build/swift-cache/2A99O0CYBH2X9/simd-31XWZ0FWXSYU3.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3275376,
+      "sha256": "f9ecb299d51459d8d21c75f5705409a4c9538463e55b7c2895604e16178d2ce5",
+      "mtime_ns": 1794967974445769883
+    },
+    {
+      "path": "build/swift-cache/3UAY7GWDHJ88X",
+      "type": "directory",
+      "mode": "0750",
+      "mtime_ns": 1794967945022648441
+    },
+    {
+      "path": "build/swift-cache/3UAY7GWDHJ88X/SwiftShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 135328,
+      "sha256": "21ec54988746aede36f44cfbc129afb30a6609a6a410308dc84f6282b4f8363d",
+      "mtime_ns": 1794967945020916050
+    },
+    {
+      "path": "build/swift-cache/AVFoundation-U9MKCU1GV5QN.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 226328,
+      "sha256": "1f9775166eab67b3f881f62fc8419bb2a3dc4457243dd53e49c2a78ea897eb4a",
+      "mtime_ns": 1794967973560686836
+    },
+    {
+      "path": "build/swift-cache/Accessibility-33PPIBSS4PUEW.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 109724,
+      "sha256": "1bbac7ef16f8a29f70e3c6cba88bb665a2794a86d62a2a04fe1087319380404e",
+      "mtime_ns": 1794967966959873081
+    },
+    {
+      "path": "build/swift-cache/AppKit-3KBPHA8R7P7SN.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 370552,
+      "sha256": "1236f7903d6df2d3bbed25f5163999880850f36e02dcddf469b1e72f32ba528c",
+      "mtime_ns": 1794967969366557227
+    },
+    {
+      "path": "build/swift-cache/Combine-1GIOAHXOVJ963.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 440844,
+      "sha256": "7c1b754ea096d884933a6e68ccb32a2e9639a94dddc5e8aecea06dfcd3411ec0",
+      "mtime_ns": 1794967960459345343
+    },
+    {
+      "path": "build/swift-cache/CoreAudio-2Q3F812N4JG9Z.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 49368,
+      "sha256": "25825d614d691399fab234b370f69950ac3024ff6e6f9385087c6cee65c79622",
+      "mtime_ns": 1794967972095393655
+    },
+    {
+      "path": "build/swift-cache/CoreData-1X7QVTVFPWJVR.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 111332,
+      "sha256": "db6141abf707917a3b07cd53cdbf991f443a0854f16a4c058385559b260804ab",
+      "mtime_ns": 1794967968253373884
+    },
+    {
+      "path": "build/swift-cache/CoreFoundation-2S0JLS84TJ80G.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 149908,
+      "sha256": "e9f324f030822ef21989e9ec9704879b41e7bac4338e07224fa837fd3d9067ce",
+      "mtime_ns": 1794967961128823451
+    },
+    {
+      "path": "build/swift-cache/CoreGraphics-CEF8I3B7Q58V.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 165676,
+      "sha256": "3faa7c2bfdb32e91771ed860dd7d47cbecaf12aa2e7eca94a2b017ae224ba0de",
+      "mtime_ns": 1794967966911546295
+    },
+    {
+      "path": "build/swift-cache/CoreImage-LNFVSC8L5F6F.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 17592,
+      "sha256": "c0f8e228c24073ac6da44f8706dde68c245b2a6be26da578867cc074906c54a2",
+      "mtime_ns": 1794967968544428792
+    },
+    {
+      "path": "build/swift-cache/CoreMIDI-1ZJRIMMKQZG5N.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 63100,
+      "sha256": "375b6ba9e1d053f4a99a150f7e88c7719ffa50f8c902c45f1dd4339055db7185",
+      "mtime_ns": 1794967971953587459
+    },
+    {
+      "path": "build/swift-cache/CoreMedia-2B266S0H64TJL.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 359036,
+      "sha256": "c82c5bf2a07d5edd8304b1a8c6639ec0caee790dfc9d5a1f6f1b9c4fcfa7b193",
+      "mtime_ns": 1794967972472752954
+    },
+    {
+      "path": "build/swift-cache/CoreTransferable-1O3YMI603W1E.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 64688,
+      "sha256": "09530930afb91b648220a80c8941bc89ec1820c4e90186f21259b5f4ee77075e",
+      "mtime_ns": 1794967969019238609
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY",
+      "type": "directory",
+      "mode": "0750",
+      "mtime_ns": 1794975321047701152
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/AVFAudio-10RQBB3TR3IEU.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1061216,
+      "sha256": "7a04844f3bbd9b5c20c180ccc511c058707e8bf047db0f919170bd18d48529c9",
+      "mtime_ns": 1794975320332282348
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/AVFoundation-G8HCVCX3ZNUT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4496544,
+      "sha256": "965d7c4fc1a949161ea27c89c1ae4994b212f7e19a60a8f065117282131084ce",
+      "mtime_ns": 1794975320982522865
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/ApplicationServices-2B43GCM34CGWZ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1088120,
+      "sha256": "8b8faaf2b20f47db44e06d54dfb78e365a84b5332420818609571d5a1aa3a1b1",
+      "mtime_ns": 1794975319811148924
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/AudioToolbox-1ECKJ40D6CU96.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1570328,
+      "sha256": "3eebad9e3bcccfcb5579ec0dfe632a900cc716fcf31c25c2ebea6c87bd5b2595",
+      "mtime_ns": 1794975320272988558
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CFNetwork-2BKHRDMU04GNC.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 311888,
+      "sha256": "d2547e2f9694f9c63eccb13fd1ee9db8fef1c4e7bc899246fbf06eab102a94f9",
+      "mtime_ns": 1794975319113025448
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CUPS-1EVAIEJ56V3IX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 685208,
+      "sha256": "678e3a024e362faaa1097ba88d7c743ec01f7b6ec3810c7f9db8f776d2496573",
+      "mtime_ns": 1794975319767666316
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/Carbon-1ZCCFPKEA64BM.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2226096,
+      "sha256": "7fb8b7d2ebc6fdf354c210303b86518f86a4d5896293c5c97cae6eb321f3050e",
+      "mtime_ns": 1794975320224906768
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/ColorSync-N2L5TNCU0EUY.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 131264,
+      "sha256": "00882e484fe01bdb1d156922f490ebbd252b4d5623f5e55ab89e5b380d29b8dc",
+      "mtime_ns": 1794975319684987454
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CoreAudio-3C6HRHCQIN8MI.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 284200,
+      "sha256": "70e7564e57b96cc60abe20905ce4f6cc5f7f73299feb8ee05be7c19495de2ce7",
+      "mtime_ns": 1794975320000649998
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CoreAudioTypes-37YSZJR8D5DV8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 236488,
+      "sha256": "d8faad362ff972b352c096d4ac737085e7f35b140e8710ba025b8965faff31c2",
+      "mtime_ns": 1794975319441822048
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CoreFoundation-O77KQPXMH550.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1272872,
+      "sha256": "4072425801a6436def0a1175aacaed09d59d955fb28183e3ba514a97e6d5f7a4",
+      "mtime_ns": 1794975318644134043
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CoreGraphics-33FA58TYDNO23.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1309408,
+      "sha256": "6d6323623f785bd8a04b087a554050b003029b8531eeb3701cc36a6ef7b0a257",
+      "mtime_ns": 1794975319513042995
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CoreMIDI-RN0F7ZZDPMKT.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 420712,
+      "sha256": "0b0f79944d0476abdf1fc567efc4a038935b0cafd9d0ff51abf96cbe6c66438e",
+      "mtime_ns": 1794975320092523141
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CoreMedia-2IU4E6T90KUGE.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1158456,
+      "sha256": "f381379a2cf8530f834b7062639faa6480803d74ba1722758a1b7d4950eb73b3",
+      "mtime_ns": 1794975320032749691
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CoreServices-3404J3IP7CNHC.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4120160,
+      "sha256": "85572bd7d613271f921533aeee02a90322c5bda5cf4056c4547cbff8c10b88da",
+      "mtime_ns": 1794975319228977984
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CoreText-3TBIZA5CM260V.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 904944,
+      "sha256": "b2d48e9cb4862a5eaeb412b0f785452a7dff4cb85ec1ef8234d19ad50ee984c7",
+      "mtime_ns": 1794975319662235041
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/CoreVideo-3KC2I317RW4SK.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 370352,
+      "sha256": "af23da6f032995ba1570d54c6da1796f4d904357f7cda80a9dda3725a386411a",
+      "mtime_ns": 1794975319954316808
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/Darwin-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 6571624,
+      "sha256": "ce441e155559b3c2de1d7949acbe9084c59e3d6164939451daad222b1588df09",
+      "mtime_ns": 1794975318457437427
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/DiskArbitration-17OM9RNNM8OQ3.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 138128,
+      "sha256": "986580bee4955377762f7b657baf407852ae72eb5d604b4987414d127b0112cc",
+      "mtime_ns": 1794975319064033797
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/Dispatch-TXIN2YKH6HP8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 277824,
+      "sha256": "f964177c9133dc1c8ce92856bfa21bceaf32c917310ef1a720be22bda42b229f",
+      "mtime_ns": 1794975318602824278
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/Foundation-1GPCXPOHRUX1F.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 5897840,
+      "sha256": "c72bd99125cc42acb8f50ca4b8e8377c0fd5bdb05ddd3bd96574cd9c88e3ebc5",
+      "mtime_ns": 1794975319403140077
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/IOKit-318B70HEO9F5Y.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3836328,
+      "sha256": "d58a6b7eb1c0048c1ba84de3186ac521f2422ce693547db7b77efe1810956dcc",
+      "mtime_ns": 1794975319045798316
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/IOSurface-1XRFTW4FJX03A.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 199568,
+      "sha256": "534cd10189f88aa4fddbd840c0196aa204a2252af52ce13c6c02eadbfd17332b",
+      "mtime_ns": 1794975319845323419
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/ImageIO-1WBGKMY87IJ9K.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 828784,
+      "sha256": "be52216a009bc640d4434f3c4b82e39708a61b683d77fab88d94b43f559b4b40",
+      "mtime_ns": 1794975319731797263
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/MachO-3D0ICV0M03KBZ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 375496,
+      "sha256": "e2a12371e6ebe2d1bfd31af6090a4f7010084ecb74697cc62ce6cd7e7245f120",
+      "mtime_ns": 1794975318543381073
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/MediaToolbox-1MH4IMPVVQDA.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 73600,
+      "sha256": "7ab38139199f841d8498cb922f2703f826c74674fb60851434651935d19172bc",
+      "mtime_ns": 1794975320446206873
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/Metal-1BPVH0CF4URDJ.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1850896,
+      "sha256": "e0899c86f862125872ebea0877647a6ba49f6512c598ebf4868d6573809df22a",
+      "mtime_ns": 1794975319932955540
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/ObjectiveC-2N44HAZ9G1RM8.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 313528,
+      "sha256": "b51417180bf9c66ff206a5c072bee589c85af57cadda1caf32b5c88db6fb26e8",
+      "mtime_ns": 1794975318556865207
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/OpenGL-JM1SO6JQ50V2.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2514792,
+      "sha256": "49b8561f7ed0a6e99ca80f2cd9f9111570a0832b3497f3d9fa022830f0aafc7a",
+      "mtime_ns": 1794975319601080486
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/QuartzCore-2KRCCQVRJNUNG.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 540688,
+      "sha256": "0ea36257e21dd65a3ca80dd68878dc374868a75583b53253bcae08bfeec8552e",
+      "mtime_ns": 1794975320505543663
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/Security-1A91GJAZPO663.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2905520,
+      "sha256": "30ef1bdcf40bc0b3290ca42a5325e606df6e661c2c727b621d8f515adf91cb8d",
+      "mtime_ns": 1794975318863137182
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/Speech-CEVBUJODCY0E.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 290848,
+      "sha256": "6d5a532fb6743f83dab4615c02e44866a00b091df52fc2f0f32cfe7927588533",
+      "mtime_ns": 1794975321022872060
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/SwiftOverlayShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 59104,
+      "sha256": "bd586dbdcb278688c0c8dcde0792e7ffe4303ad7916bdc4a7836e4681a12140c",
+      "mtime_ns": 1794975318477116802
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/SwiftShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 135416,
+      "sha256": "e755bb0bea8f47b374c57891c4e3900d8391877a98a79ab3791d69ad3a1b2cd7",
+      "mtime_ns": 1794975318201962951
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/UniformTypeIdentifiers-383IBW9H10NHK.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 195848,
+      "sha256": "cc417a103d0ed93419710fc49f8e6e67fe381114f7dd7c04293dc5778a4c063a",
+      "mtime_ns": 1794975320415346079
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/XPC-HTG3ZZ3Q75JL.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 211864,
+      "sha256": "f2d76a3cc9dbd31b25ed8a95ea9d48f7c762cfa5129b7bd0937f9251a6a1c645",
+      "mtime_ns": 1794975318777705652
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/_Builtin_intrinsics-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2973456,
+      "sha256": "c67cc20ccaf243b9d84d55ee548c3a290cc495a8b6aeec98040e24a2a3c30ec6",
+      "mtime_ns": 1794975320673416682
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/_Builtin_stddef_max_align_t-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31376,
+      "sha256": "4f7491b282d47aa9dff2cdefb8d0c466f37d85f8c396188661311e5a3c970d47",
+      "mtime_ns": 1794975318232865036
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/_SwiftConcurrencyShims-19UTVMT7NMN6R.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 32120,
+      "sha256": "f14e26d994e684a16e4afc35ccc482339115ca3b92160e9049cd14b2ec20e1a1",
+      "mtime_ns": 1794975318207698867
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/launch-HTG3ZZ3Q75JL.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 93952,
+      "sha256": "c1b73c0a24a117ac5167d6f832ab88f8038fc7813e3ea7ad65e0371c3b7ccbbb",
+      "mtime_ns": 1794975318763495571
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/libDER-1KG5XVUK3YY6O.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 56928,
+      "sha256": "835335bf0e6d74e88810f5dd58eede1c55e36de0a4b9bc72f7fa91d4a0db7eae",
+      "mtime_ns": 1794975318797113199
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/libkern-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 70576,
+      "sha256": "370e69709a8cb43558f37a12e83368b854d97eb9d1f2d29356b8a4c5e8356982",
+      "mtime_ns": 1794975318910286568
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/os-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 156704,
+      "sha256": "4b2a969ad7d8484a33e3cf6ec436052d60abf26f8e91a3ebd730f9ef5ae608d2",
+      "mtime_ns": 1794975321046832081
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/os_object-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 63400,
+      "sha256": "1cc6f87d59b90152750ebbc1d6ef7f4c99940bb78024d9028426a43ebcd4330f",
+      "mtime_ns": 1794975318567549716
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/os_workgroup-33Y6JG3ORERXX.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 87824,
+      "sha256": "a87a84fdae93cd19a855642e4ed2a6e6bdb6391d793aa6da73240aab63df44e9",
+      "mtime_ns": 1794975318584287469
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/ptrauth-24DUIMU6FMFDF.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 42992,
+      "sha256": "9e0ca64b1f8bf876aa4bad778780b26e9536f58a8a0b4a387d042bc8f4b10bb9",
+      "mtime_ns": 1794975318491717128
+    },
+    {
+      "path": "build/swift-cache/DKLHJ02199UY/simd-31XWZ0FWXSYU3.pcm",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3275360,
+      "sha256": "95a9ef224757910ccbb120eb0258e3e764d253dbaf29e9d7f35c65672c2b2f17",
+      "mtime_ns": 1794975320876120520
+    },
+    {
+      "path": "build/swift-cache/Darwin-1NZVCLY5HVGE4.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 141300,
+      "sha256": "8a0c58d01f308faf164e67cd7d24f2889363f641cfa2207dddd370cdc9faa31e",
+      "mtime_ns": 1794967960162392648
+    },
+    {
+      "path": "build/swift-cache/DeveloperToolsSupport-3IW2Q0A35M7NB.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 32952,
+      "sha256": "466e5314ad6204b52ec33a9635c5376cb6ca4ec8746d43bdc36feaa0ac84d773",
+      "mtime_ns": 1794967969074636249
+    },
+    {
+      "path": "build/swift-cache/Dispatch-DXPP2ESUGY0G.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 187372,
+      "sha256": "ac240b12a4cb608617280afc9ddc1ca6687467f465f964391281b850fa380e32",
+      "mtime_ns": 1794967961009282217
+    },
+    {
+      "path": "build/swift-cache/Distributed-13L397SF1GGKC.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 60736,
+      "sha256": "7ca88a0a7570aff304cffc8a8cd19f00987517eb8939c6b75e30800f459f196f",
+      "mtime_ns": 1794975165740437608
+    },
+    {
+      "path": "build/swift-cache/Foundation-34W2JUDQ3SZOU.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3112276,
+      "sha256": "7463cf258c9c639808cc1b8b6eddc9f06b4cfb1262872e6ae558d923c4d16bea",
+      "mtime_ns": 1794967965374588755
+    },
+    {
+      "path": "build/swift-cache/IOKit-16WKVSH0I1ILR.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 26368,
+      "sha256": "53b657d5777890d8da347775161455bf7583606e91559998d0e60bdafafc1f69",
+      "mtime_ns": 1794967962121859485
+    },
+    {
+      "path": "build/swift-cache/Metal-3KPYMKYEM7NDZ.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 97108,
+      "sha256": "68bcdcaeb71996d0d088f97ed463b534eb6b02269e2ba850ec96fbf64600c4c1",
+      "mtime_ns": 1794967968431145132
+    },
+    {
+      "path": "build/swift-cache/OSLog-3Q9PTOPSWRZAO.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 46272,
+      "sha256": "8253aee91968e9d737b232f73bc3b4051e1c334b51905026500d4fc3b747bbf6",
+      "mtime_ns": 1794967969175271762
+    },
+    {
+      "path": "build/swift-cache/ObjectiveC-Y1Y9FHIPGY0W.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 42956,
+      "sha256": "955913526342f80e741482be59e006eaab870a98308d6d58587b505680965ead",
+      "mtime_ns": 1794967960736804577
+    },
+    {
+      "path": "build/swift-cache/Observation-BKRHXO3P61A9.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 21228,
+      "sha256": "77cf89903767b548e1d05599c899617ecc17b49285f77f9e9af77c1a5079f56e",
+      "mtime_ns": 1794967962137597836
+    },
+    {
+      "path": "build/swift-cache/QuartzCore-CI9DN72AOPIO.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 24948,
+      "sha256": "4cccd7c026e11aae5c58a425b22e5acfefd94629b35279e83ebcafb8951dcb14",
+      "mtime_ns": 1794967968448657124
+    },
+    {
+      "path": "build/swift-cache/Speech-36XWX2EGOND9U.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 43436,
+      "sha256": "176119a89020807649a94892f91e7034c32a7ecb055f5ecd84f8e95786496454",
+      "mtime_ns": 1794975165827999690
+    },
+    {
+      "path": "build/swift-cache/Swift-37D0HAU7FU5T4.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 12257280,
+      "sha256": "d02431426fa85300943b3073b97557c7838b2052fbaab1eb760b4b2f197d628e",
+      "mtime_ns": 1794967959123033714
+    },
+    {
+      "path": "build/swift-cache/SwiftOnoneSupport-2N9DKLBXHU1C1.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 15356,
+      "sha256": "ac2230345c254429eeea8b206ea4a3ebf8585c5fe2d84b1e77703e441f654c2f",
+      "mtime_ns": 1794975164417854610
+    },
+    {
+      "path": "build/swift-cache/Symbols-1WQ07RAM6418Q.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 44240,
+      "sha256": "f58dde1178566b7b9680e0ae37e41d762edf7e42068c9792bc292b8d4c88016a",
+      "mtime_ns": 1794967968504205261
+    },
+    {
+      "path": "build/swift-cache/UniformTypeIdentifiers-UZV12OPJALNY.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 66076,
+      "sha256": "873a3765c828d5db0fc445538b1fe3b0d4ebf412f678b929fb868f9baaba73b2",
+      "mtime_ns": 1794967968708247121
+    },
+    {
+      "path": "build/swift-cache/XPC-2PM4GUHXNMTR6.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 84724,
+      "sha256": "b4cac15bb0c0aa8ff9a16128c8816f2b3891ef60604b6d4e84379cadbe418ffa",
+      "mtime_ns": 1794967962096421528
+    },
+    {
+      "path": "build/swift-cache/_Concurrency-16ZOMU6Z0769.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 350320,
+      "sha256": "505e76e22876cce26592e5e127689e9f8e61494432a67d4667f27d0ca221b4da",
+      "mtime_ns": 1794967959646482063
+    },
+    {
+      "path": "build/swift-cache/_StringProcessing-1DQUGMLOG5ELU.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 70476,
+      "sha256": "330a845886aec0fc021d5033fe0eab8a4b1a6877b299697373a74d31be56474f",
+      "mtime_ns": 1794967959422458623
+    },
+    {
+      "path": "build/swift-cache/modules.timestamp",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1794967944917855115
+    },
+    {
+      "path": "build/swift-cache/os-O142VVKNMP8F.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 538444,
+      "sha256": "ae30d0ef748883ecede618cb96f168439be399a755bf0fb49082b53af4a86353",
+      "mtime_ns": 1794967968981712872
+    },
+    {
+      "path": "build/swift-cache/simd-2G3RNFFEGHY48.swiftmodule",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1030648,
+      "sha256": "a5dbc7f044f10d1cccd8c4cafd3c63aa6d0f6945af6bc43625cb30b416ec31ba",
+      "mtime_ns": 1794967973399901712
+    },
+    {
+      "path": "build/voice-review",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794976545064793824
+    },
+    {
+      "path": "build/voice-review/asr",
+      "type": "file",
+      "mode": "0755",
+      "bytes": 58688,
+      "sha256": "b8969392f304283d08c250dd794748e3d7dfb83ede7513264b424fb3d27cc80c",
+      "mtime_ns": 1794975468437021694
+    },
+    {
+      "path": "build/voice-review/asr-final",
+      "type": "file",
+      "mode": "0755",
+      "bytes": 58840,
+      "sha256": "ebb35951bfdd129f20101b9d8492618c135522f08565640485b2858b7474cb60",
+      "mtime_ns": 1794975945666422989
+    },
+    {
+      "path": "build/voice-review/asr-final-takes",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794975997262121760
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/astra-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 57,
+      "sha256": "b85bcc15c49b59df8940c3eb79db7c31cb677f1c0b6deb42c518f8a24af8ef5e",
+      "mtime_ns": 1794975982162035676
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/astra-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 70,
+      "sha256": "1ee84c8703cf543d92e5caa41c1ca6b1658448dcb37ec0eeab653c88fac8582d",
+      "mtime_ns": 1794975982832234439
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/astra-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31,
+      "sha256": "0bd37f026c7f1ef312c08de1d5c2698fc56b3e7c4c5a0a82be12e7a3d22ad4bf",
+      "mtime_ns": 1794975983314457939
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/board-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 34,
+      "sha256": "9fce2679021a7a3a346be5ad2b4d3f97da0bbfdd7a3c27b0579f64732870029d",
+      "mtime_ns": 1794976298858408895
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/board-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 52,
+      "sha256": "6124f51b46bb267cd8ecf61110b136c9511bd0788df0c2d800560a50fbd79c46",
+      "mtime_ns": 1794975984401173756
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/board-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 58,
+      "sha256": "93bb1e22005224b4c9bd89eec87063e7a899685d3c4d83274f8cc6ad3d4e19ed",
+      "mtime_ns": 1794975985048989142
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/fable-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 60,
+      "sha256": "cca9d252189e4f7353fe5a853188aed95f65c1c29b7a7a7d6a54722dff567f07",
+      "mtime_ns": 1794975985829693481
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/fable-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 51,
+      "sha256": "5d791b4e5f3575ae241565ad31e7ebf82d7409a607e8285091632b282a329397",
+      "mtime_ns": 1794975986714948109
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/fable-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31,
+      "sha256": "37e976edcea8a18bc1c2b51b19d09f32b6f39826ba7fadd3de0604010c3db860",
+      "mtime_ns": 1794975987164023223
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/open-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 68,
+      "sha256": "c79f7b08b9a68049d4939ebe35be0933686a9d29a4e10038b6271df3ad19d5f8",
+      "mtime_ns": 1794975987802070212
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/pair-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 41,
+      "sha256": "37240ba4aaa92fef2f577f99e0f8d8be0782183f3c5f64b43b575079ec9324e7",
+      "mtime_ns": 1794975988758329623
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/pair-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 51,
+      "sha256": "3d7be2346f023bcde2d72597319401b4b05764bded6ffbcbb76c7841b86bc4a2",
+      "mtime_ns": 1794976299373758489
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/pair-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 32,
+      "sha256": "15b1d8d36ac32c942d89e172eb568059970b22580ab447c2a1197fd871bdf68e",
+      "mtime_ns": 1794975989823576841
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/reference.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 58,
+      "sha256": "03c03e9374ceaee3c62d7b204e726c51fe45098268ef1f3790c9996a6fead68d",
+      "mtime_ns": 1794975990576246344
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/rules-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 58,
+      "sha256": "70a5827572aefe1d97ae1d653567fbf14bd29c8f1b1aa0ae0e6a4dc5d6db56b2",
+      "mtime_ns": 1794975991426635279
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/rules-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 52,
+      "sha256": "fda0699f80d84eba5f499ec155ab70ead584c7974e0b71c9783185f3dcddc131",
+      "mtime_ns": 1794975992244521694
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/sol-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 57,
+      "sha256": "e7bbecf50aadd436382f495b9de3a2ce9a386001944a9409de60b12d288747b2",
+      "mtime_ns": 1794975992811882727
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/sol-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 79,
+      "sha256": "68ad17cb1d54930cae3c570c4a4acb970dac78836f994f99a45ee39647cf4320",
+      "mtime_ns": 1794975993817868070
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/sol-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 25,
+      "sha256": "2cdb4a9b8db045148c4dafd121027a04ac564c1319ba24339b6127d533b390cb",
+      "mtime_ns": 1794975994281266848
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/spectrum-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 40,
+      "sha256": "8ed0350a397a7b9eddf49ae399c6724b62a8f75e6de712a907eacd5ba8454f00",
+      "mtime_ns": 1794975994775594044
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/spectrum-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 58,
+      "sha256": "75c3aca7414dc7ad25d71a4c83cf237de0d902b4b7a0959778298a04366c4e34",
+      "mtime_ns": 1794975995564047018
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/spectrum-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 41,
+      "sha256": "cb1ea428933ed593acc288d3d318850c58e6757ec1ad84ae1261cadfe1300249",
+      "mtime_ns": 1794975996122581390
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/spread-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 41,
+      "sha256": "5ff73d8f5c1e363bc81824d2868dbd8bda5bf3aeda56ce9873106c56b174c8e5",
+      "mtime_ns": 1794976298079623403
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/spread-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 49,
+      "sha256": "d7fb1b47cf05a9e8956a70c0bcbbe7c0c1c9b806672dd315dd9c77bcb200620f",
+      "mtime_ns": 1794975997258536521
+    },
+    {
+      "path": "build/voice-review/asr-final-takes/spread-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 57,
+      "sha256": "6e51c93fba00f94607e0dc767c2da62560db985c10bc19998d5d9e62d760539e",
+      "mtime_ns": 1794975997838469827
+    },
+    {
+      "path": "build/voice-review/asr-status",
+      "type": "file",
+      "mode": "0755",
+      "bytes": 54264,
+      "sha256": "d8bd33a86e97f2aba374a041d9f72c1d62c9c58b40fd4a16e9b0260ca5334ec4",
+      "mtime_ns": 1794975321152377105
+    },
+    {
+      "path": "build/voice-review/asr-status.swift",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 267,
+      "sha256": "465db78425e456796cd622dff7262d07d5938131603bd0d6a69cb548d6eebb8c",
+      "mtime_ns": 1794975164327967729
+    },
+    {
+      "path": "build/voice-review/asr-takes",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794975557954338455
+    },
+    {
+      "path": "build/voice-review/asr-takes/astra-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 47,
+      "sha256": "53217d35c17f1f129c193ced651304189fb02262c9566355cde3f66c0b8b1207",
+      "mtime_ns": 1794975540913091554
+    },
+    {
+      "path": "build/voice-review/asr-takes/astra-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 70,
+      "sha256": "1ee84c8703cf543d92e5caa41c1ca6b1658448dcb37ec0eeab653c88fac8582d",
+      "mtime_ns": 1794975541503684744
+    },
+    {
+      "path": "build/voice-review/asr-takes/astra-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31,
+      "sha256": "0bd37f026c7f1ef312c08de1d5c2698fc56b3e7c4c5a0a82be12e7a3d22ad4bf",
+      "mtime_ns": 1794975541946533200
+    },
+    {
+      "path": "build/voice-review/asr-takes/board-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 44,
+      "sha256": "54985006b9271aa6f8095d113576bd1a08b54f0479ceb8800aaa07ee770055ce",
+      "mtime_ns": 1794975543236244893
+    },
+    {
+      "path": "build/voice-review/asr-takes/board-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 23,
+      "sha256": "a0966a1cc26298966e6ead35102bb2743e9b9faaf1ddf835ed6bb7465ebbb238",
+      "mtime_ns": 1794975760725041746
+    },
+    {
+      "path": "build/voice-review/asr-takes/board-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 76,
+      "sha256": "a3f4a3c7c03a841f5e6488228f99c235d2c58adbb1c43a9801f42ad8c7ab0110",
+      "mtime_ns": 1794975544220145438
+    },
+    {
+      "path": "build/voice-review/asr-takes/fable-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 57,
+      "sha256": "c8fb6f9e3879b0cd7545cf0f7ba65d5e551e6c26e8804b74a4a794566c2d7eb2",
+      "mtime_ns": 1794975545576074611
+    },
+    {
+      "path": "build/voice-review/asr-takes/fable-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 51,
+      "sha256": "5d791b4e5f3575ae241565ad31e7ebf82d7409a607e8285091632b282a329397",
+      "mtime_ns": 1794975546599549279
+    },
+    {
+      "path": "build/voice-review/asr-takes/fable-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31,
+      "sha256": "37e976edcea8a18bc1c2b51b19d09f32b6f39826ba7fadd3de0604010c3db860",
+      "mtime_ns": 1794975546985664407
+    },
+    {
+      "path": "build/voice-review/asr-takes/open-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 74,
+      "sha256": "ed2c2120a088c89637ea54768c3a5a7dfc741aeb8ba37097c227b3ac5a3bfbfe",
+      "mtime_ns": 1794975759289751121
+    },
+    {
+      "path": "build/voice-review/asr-takes/pair-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 35,
+      "sha256": "b03337e6a2f665a3757cc17bf93ce673737cc48b951ae85f23db5214a6d9807b",
+      "mtime_ns": 1794975548509678971
+    },
+    {
+      "path": "build/voice-review/asr-takes/pair-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 49,
+      "sha256": "1cfddc69c4854c125c13f60285dc3ca40bfc8dfdaa9d2189204f1d55874fbde0",
+      "mtime_ns": 1794975759767981346
+    },
+    {
+      "path": "build/voice-review/asr-takes/pair-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 53,
+      "sha256": "9a638253551ebb50b1f664378039991f19d0ec3c1b3c4751aa12e3977ed5e4bf",
+      "mtime_ns": 1794975549476043733
+    },
+    {
+      "path": "build/voice-review/asr-takes/reference.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 58,
+      "sha256": "03c03e9374ceaee3c62d7b204e726c51fe45098268ef1f3790c9996a6fead68d",
+      "mtime_ns": 1794975550159812130
+    },
+    {
+      "path": "build/voice-review/asr-takes/rules-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 67,
+      "sha256": "940e5d69bcda2eab4bd9750da5308e33e548c624cda764eb5d8c6d278eafec90",
+      "mtime_ns": 1794975551150923068
+    },
+    {
+      "path": "build/voice-review/asr-takes/rules-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 63,
+      "sha256": "bbebdf30a802b43fe4ecce7d9da3ce0d3aa22f0499e8a7d57370e2b1b4faf209",
+      "mtime_ns": 1794975551786894588
+    },
+    {
+      "path": "build/voice-review/asr-takes/sol-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 39,
+      "sha256": "6dcb97c5e0c3f0da51bcefcb714a79d7088fff2a320b1bdd1e6178dd852842a8",
+      "mtime_ns": 1794975761254455881
+    },
+    {
+      "path": "build/voice-review/asr-takes/sol-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 73,
+      "sha256": "0ce4e1e33b288227d4e34327294b7d308e23d98287c5f20183eb553e80b7b564",
+      "mtime_ns": 1794975553630255599
+    },
+    {
+      "path": "build/voice-review/asr-takes/sol-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 49,
+      "sha256": "99472c336d956174f390e20e4293166669f2958cb557220e4df4f620844be793",
+      "mtime_ns": 1794975554126473725
+    },
+    {
+      "path": "build/voice-review/asr-takes/spectrum-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 70,
+      "sha256": "5449ed5af9e871b00ed8524d4851addcffc2abce53371558a221ad5d2815c4d5",
+      "mtime_ns": 1794975554925730957
+    },
+    {
+      "path": "build/voice-review/asr-takes/spectrum-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 52,
+      "sha256": "efa3b73710fa8317ccff35c3eaed9e2f80f361ad2f4adc32fed7804b7b658b3c",
+      "mtime_ns": 1794975761923991988
+    },
+    {
+      "path": "build/voice-review/asr-takes/spectrum-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 47,
+      "sha256": "06d18fc8ef666a6ba618d01ef901a9b53f71dd1d3cf4f7186cf6e3b9cd3df8e3",
+      "mtime_ns": 1794975556699923324
+    },
+    {
+      "path": "build/voice-review/asr-takes/spread-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 46,
+      "sha256": "de9edc2d241c3a2fb8b6939b24e02d9dff12615fc7f0831eb15348e007f7bc99",
+      "mtime_ns": 1794975557135524387
+    },
+    {
+      "path": "build/voice-review/asr-takes/spread-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 46,
+      "sha256": "567cfb9d8b5a53ad3dfb13faa1997e178866f1b4d7d8813c564ebdd237770a91",
+      "mtime_ns": 1794975760204897349
+    },
+    {
+      "path": "build/voice-review/asr-takes/spread-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 60,
+      "sha256": "fa3e39f5c1323ce5a6aafe03159703bcdebf1571956d09ca089e97331a1a78bc",
+      "mtime_ns": 1794975558480869550
+    },
+    {
+      "path": "build/voice-review/asr.swift",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1072,
+      "sha256": "bcda77be09c22978a8830f5d4b912a238f0a9efa0d31159a51a748ae39be517e",
+      "mtime_ns": 1794975945371377307
+    },
+    {
+      "path": "build/voice-review/delivery-audio",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794976561207418128
+    },
+    {
+      "path": "build/voice-review/delivery-audio/astra-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 60,
+      "sha256": "bb8d4a49601555a3ef7304090cf095c26f9ae784aa89beaab6599c574c83ee40",
+      "mtime_ns": 1794976550275087585
+    },
+    {
+      "path": "build/voice-review/delivery-audio/astra-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 239344,
+      "sha256": "aaa1a03761dd7f9d8d8a7caae5fecf773992b3816603baff9d8c800b6980fbc5",
+      "mtime_ns": 1794976549614425681
+    },
+    {
+      "path": "build/voice-review/delivery-audio/astra-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 67,
+      "sha256": "b91305f523819394af80f38f17c410758e9a8cefbb8fd7fd64cb73ae4551e15a",
+      "mtime_ns": 1794976551373474522
+    },
+    {
+      "path": "build/voice-review/delivery-audio/astra-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 244134,
+      "sha256": "f4c257a8a5bed1f18ede491d6ea741ae89fc5a48ac448ff28f2a4f32a102f9ef",
+      "mtime_ns": 1794976550296783931
+    },
+    {
+      "path": "build/voice-review/delivery-audio/astra-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31,
+      "sha256": "0bd37f026c7f1ef312c08de1d5c2698fc56b3e7c4c5a0a82be12e7a3d22ad4bf",
+      "mtime_ns": 1794976551867323391
+    },
+    {
+      "path": "build/voice-review/delivery-audio/astra-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 194474,
+      "sha256": "a769016681e65f67d9a3e2cb8021b66f544e8f85052f02bda78fa8f9a46fe746",
+      "mtime_ns": 1794976551394635167
+    },
+    {
+      "path": "build/voice-review/delivery-audio/board-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 34,
+      "sha256": "9fce2679021a7a3a346be5ad2b4d3f97da0bbfdd7a3c27b0579f64732870029d",
+      "mtime_ns": 1794976560574245068
+    },
+    {
+      "path": "build/voice-review/delivery-audio/board-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 154744,
+      "sha256": "a0b3bbf83868e06e40954234c49d55e98df1e06105e2530a6603487970c08e04",
+      "mtime_ns": 1794976560032473448
+    },
+    {
+      "path": "build/voice-review/delivery-audio/board-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 55,
+      "sha256": "bec137c9b8d5540aa7871236daf15ea6673eb720b813f7255ecc0ed305e15360",
+      "mtime_ns": 1794976561182263042
+    },
+    {
+      "path": "build/voice-review/delivery-audio/board-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 254584,
+      "sha256": "9cc3230db249bdbe81310baa22b5f4f3d14019bb24842afa3164af26846bdfca",
+      "mtime_ns": 1794976560596566696
+    },
+    {
+      "path": "build/voice-review/delivery-audio/board-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 64,
+      "sha256": "f4299dacafcc5589cd1ed0b7156ce2cda2ab1dcdc037fcf8d4f265acafb7f1c6",
+      "mtime_ns": 1794976561977991409
+    },
+    {
+      "path": "build/voice-review/delivery-audio/board-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 373624,
+      "sha256": "63e62f4aadcc5041c2ec8d3f054ff2a19c822dfca65f2dfd2fbc086b56b9d319",
+      "mtime_ns": 1794976561206515975
+    },
+    {
+      "path": "build/voice-review/delivery-audio/fable-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 63,
+      "sha256": "49984e95a34ff7c39ea714066670505847c32e10bbcd3da5f761b34654579221",
+      "mtime_ns": 1794976548041672128
+    },
+    {
+      "path": "build/voice-review/delivery-audio/fable-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 227704,
+      "sha256": "0aeb2c2b99947bb145b8e54f686270bd6c896a9816b2e0b066558200be838be0",
+      "mtime_ns": 1794976547079489762
+    },
+    {
+      "path": "build/voice-review/delivery-audio/fable-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 51,
+      "sha256": "2123a5b4b3a6af009ea1efe8df6e4d861fd3a1085000ff83ba7ca1fdea723067",
+      "mtime_ns": 1794976549119188165
+    },
+    {
+      "path": "build/voice-review/delivery-audio/fable-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 239224,
+      "sha256": "36d004f8f43211d59524a55396413991ba0271b424526be56634aaa56027c083",
+      "mtime_ns": 1794976548063588721
+    },
+    {
+      "path": "build/voice-review/delivery-audio/fable-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31,
+      "sha256": "37e976edcea8a18bc1c2b51b19d09f32b6f39826ba7fadd3de0604010c3db860",
+      "mtime_ns": 1794976549591981762
+    },
+    {
+      "path": "build/voice-review/delivery-audio/fable-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 185464,
+      "sha256": "1b862189d697672139d75985cef85f73254e2f47b0fc5a292e51ce413e90d790",
+      "mtime_ns": 1794976549141195673
+    },
+    {
+      "path": "build/voice-review/delivery-audio/open-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 68,
+      "sha256": "c79f7b08b9a68049d4939ebe35be0933686a9d29a4e10038b6271df3ad19d5f8",
+      "mtime_ns": 1794976545881042388
+    },
+    {
+      "path": "build/voice-review/delivery-audio/open-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 312184,
+      "sha256": "4e081719045fea81096fd1383189eb3633201ff10df429020aedc4a1d962ce42",
+      "mtime_ns": 1794976545168370627
+    },
+    {
+      "path": "build/voice-review/delivery-audio/pair-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 47,
+      "sha256": "c87ea1e1202288acca04036bece3c2e110234dfffd90cf4d62cb9c5ed0e434d0",
+      "mtime_ns": 1794976552381453086
+    },
+    {
+      "path": "build/voice-review/delivery-audio/pair-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 224344,
+      "sha256": "4dfea973768a90faf39df636721101b73f6abd7a6a0b777c71c2cc118d08a1ad",
+      "mtime_ns": 1794976551889358190
+    },
+    {
+      "path": "build/voice-review/delivery-audio/pair-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 51,
+      "sha256": "3d7be2346f023bcde2d72597319401b4b05764bded6ffbcbb76c7841b86bc4a2",
+      "mtime_ns": 1794976552918053657
+    },
+    {
+      "path": "build/voice-review/delivery-audio/pair-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 261784,
+      "sha256": "6d3c7b8da29966ca6c28ee4d7a4723de74fdc78866c9fa0f480874a56ef631e6",
+      "mtime_ns": 1794976552404234999
+    },
+    {
+      "path": "build/voice-review/delivery-audio/pair-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 32,
+      "sha256": "15b1d8d36ac32c942d89e172eb568059970b22580ab447c2a1197fd871bdf68e",
+      "mtime_ns": 1794976553407130263
+    },
+    {
+      "path": "build/voice-review/delivery-audio/pair-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 193144,
+      "sha256": "2e23a92bbffbd56c84cee7e56533796e9a2ca35d2dc615e0866b74342582feb9",
+      "mtime_ns": 1794976552939582255
+    },
+    {
+      "path": "build/voice-review/delivery-audio/rules-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 58,
+      "sha256": "3078e525edcecdf553c46ed1551911954328a10c3b8a44ec721c53625612b7a5",
+      "mtime_ns": 1794976546536311830
+    },
+    {
+      "path": "build/voice-review/delivery-audio/rules-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 243064,
+      "sha256": "c6fa77dad065361fe2528a2f97cf112121d36c6967c776968ffba23758a72320",
+      "mtime_ns": 1794976545902677235
+    },
+    {
+      "path": "build/voice-review/delivery-audio/rules-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 51,
+      "sha256": "be2012e2fb7873847853b590d3b39adc07d7cedb12395b881fea4f5c4cfbc907",
+      "mtime_ns": 1794976547057223425
+    },
+    {
+      "path": "build/voice-review/delivery-audio/rules-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 227704,
+      "sha256": "796be0092dae7f11c64a9f712e9c4e0b8644f4452afabef96ed3d90fca76a3a3",
+      "mtime_ns": 1794976546558742499
+    },
+    {
+      "path": "build/voice-review/delivery-audio/sol-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 57,
+      "sha256": "e7bbecf50aadd436382f495b9de3a2ce9a386001944a9409de60b12d288747b2",
+      "mtime_ns": 1794976554052548560
+    },
+    {
+      "path": "build/voice-review/delivery-audio/sol-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 236660,
+      "sha256": "be7f3516934dbd00538428cf8a438b68d3050d1b87f0318c9fb2eef7378dc6b1",
+      "mtime_ns": 1794976553430371336
+    },
+    {
+      "path": "build/voice-review/delivery-audio/sol-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 70,
+      "sha256": "114ddb53687a114494b27c9e0e8fd6199340dc58cead67a81e558219446b3f5c",
+      "mtime_ns": 1794976554813373568
+    },
+    {
+      "path": "build/voice-review/delivery-audio/sol-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 280158,
+      "sha256": "e69a5683adf6e0c924da9992e584749a13c4ccab7a6329f52327cd2d5fdce518",
+      "mtime_ns": 1794976554074963020
+    },
+    {
+      "path": "build/voice-review/delivery-audio/sol-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 28,
+      "sha256": "bffb0610f553cc48572861b7e43d8666864d18699dc08d1c038e5ca614a47138",
+      "mtime_ns": 1794976555344612968
+    },
+    {
+      "path": "build/voice-review/delivery-audio/sol-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 160740,
+      "sha256": "3f6637fabc8534b947dea068bb7279694fcfd72226b9c0f0e3d52f4664b82442",
+      "mtime_ns": 1794976554834318425
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spectrum-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 64,
+      "sha256": "661832a476796d57982496400bf5a197e5fbd7e45ade586342e363b1e5b0128a",
+      "mtime_ns": 1794976558146753854
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spectrum-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 223716,
+      "sha256": "00414d77470f573a397d659b1d4214ce0350e39e1b73a3a176502cce952b3fba",
+      "mtime_ns": 1794976556952738622
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spectrum-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 64,
+      "sha256": "d3067dce04912698107bec628706b5e88901917d540532321208d2eae00b68aa",
+      "mtime_ns": 1794976559406465032
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spectrum-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 263128,
+      "sha256": "0a43e0840790d863c4569f2de221eb38be8904566b178fd06ee8d418929a5910",
+      "mtime_ns": 1794976558169347812
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spectrum-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 47,
+      "sha256": "e473e2de58cad8d7dc3c09c073591dc1a71ebce98d8af553c60048bdb4e27584",
+      "mtime_ns": 1794976560012123540
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spectrum-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 189002,
+      "sha256": "9c6e7ee9773546cc11db804a4ce4f0aa90b1828fcc684a4b00248322ed6b5855",
+      "mtime_ns": 1794976559427127185
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spread-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 41,
+      "sha256": "5ff73d8f5c1e363bc81824d2868dbd8bda5bf3aeda56ce9873106c56b174c8e5",
+      "mtime_ns": 1794976555852707710
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spread-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 244172,
+      "sha256": "376d80137edab32543f6dbcd69ed82434d1f6413d3f689246285195873ce745a",
+      "mtime_ns": 1794976555366227732
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spread-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 49,
+      "sha256": "d7fb1b47cf05a9e8956a70c0bcbbe7c0c1c9b806672dd315dd9c77bcb200620f",
+      "mtime_ns": 1794976556436892161
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spread-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 232168,
+      "sha256": "96dd1e740df923f440ab794543527fecd3d1acd93cceaf3d9fd10404392e0095",
+      "mtime_ns": 1794976555873832689
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spread-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 39,
+      "sha256": "368106e1c97cf7483c8f77c69afa087f3754bf49541db39752950c486d950202",
+      "mtime_ns": 1794976556930797905
+    },
+    {
+      "path": "build/voice-review/delivery-audio/spread-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 202326,
+      "sha256": "d80e6614d265dfe858388710abd867da9343c6a68f07c85e335bf7b18bc21e39",
+      "mtime_ns": 1794976556458417051
+    },
+    {
+      "path": "build/voice-review/delivery-check.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 455,
+      "sha256": "56f549389b600c7007010e157fc8b2df66982a3e3923a4c9c3cd9cb0799a992a",
+      "mtime_ns": 1794976356690112688
+    },
+    {
+      "path": "build/voice-review/delivery-frames",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794976545577633788
+    },
+    {
+      "path": "build/voice-review/delivery-frames/astra.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 55852,
+      "sha256": "422b331a5c6665de7d97ffc75cff03711183ccdc9b3ccfe7cc0e36631a689d8f",
+      "mtime_ns": 1794976545256230079
+    },
+    {
+      "path": "build/voice-review/delivery-frames/board.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 71168,
+      "sha256": "a16fe789056359884c2a4e19c824cd18335105357c22186aa448dcfac0eb81f5",
+      "mtime_ns": 1794976545577876784
+    },
+    {
+      "path": "build/voice-review/delivery-frames/fable.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 53249,
+      "sha256": "f36001f735a95c698235c4dcd9713825d642101044a6ca48fc38712550f8fccf",
+      "mtime_ns": 1794976545212036523
+    },
+    {
+      "path": "build/voice-review/delivery-frames/open.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 50160,
+      "sha256": "db2a263517191c496ce392f7bba45215cce0140bb9a84405b3b31f635eb45689",
+      "mtime_ns": 1794976545122474347
+    },
+    {
+      "path": "build/voice-review/delivery-frames/pair.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 50514,
+      "sha256": "29f7ceaf5e2cab2bba2ea770a755dc58ccb100b6cd20b5817154eb9cdb2a9206",
+      "mtime_ns": 1794976545312829576
+    },
+    {
+      "path": "build/voice-review/delivery-frames/rules.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 43165,
+      "sha256": "2586919ac2829975edae04ea0a136004bd8f5994ad79e64cf94266ccf5d34b89",
+      "mtime_ns": 1794976545166695277
+    },
+    {
+      "path": "build/voice-review/delivery-frames/sol.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 56352,
+      "sha256": "1e56ca58127c647838a04dae02da5996b39e357a463a4aa4226cc1860f73a053",
+      "mtime_ns": 1794976545366616364
+    },
+    {
+      "path": "build/voice-review/delivery-frames/spectrum.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 57172,
+      "sha256": "a197070664f250395eb17692f21995c6b4d858508f0b91c35eccc4bf214fae5a",
+      "mtime_ns": 1794976545485621647
+    },
+    {
+      "path": "build/voice-review/delivery-frames/spread.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 50212,
+      "sha256": "66f67b804b162330e23a211013c349a4ae158ebf4b2840e3bef0fb56d6b1504e",
+      "mtime_ns": 1794976545420332612
+    },
+    {
+      "path": "build/voice-review/delivery-render.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 490,
+      "sha256": "002989921fd847e89c7b5950096f00c3fe6ca9513be8b4c2ebfdfd341153b23e",
+      "mtime_ns": 1794976333907940700
+    },
+    {
+      "path": "build/voice-review/delivery-times.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 556,
+      "sha256": "0bc115a46057853f8dfcdda98845e2edb1fa60ce5ad327c87f67e62f04b7ed6e",
+      "mtime_ns": 1794976545138509318
+    },
+    {
+      "path": "build/voice-review/filter-probe.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 589730,
+      "sha256": "514eabe08e603fe66e66aac857e5e5af9ce52a4d926bb2f32c689eb7819e637b",
+      "mtime_ns": 1794975733705199542
+    },
+    {
+      "path": "build/voice-review/final-audio",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794976214706700766
+    },
+    {
+      "path": "build/voice-review/final-audio/astra-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 51,
+      "sha256": "7b995e78090947c10789556dfff0e853acec4e522c6e69179a400d8ce1117648",
+      "mtime_ns": 1794976202293423106
+    },
+    {
+      "path": "build/voice-review/final-audio/astra-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 234832,
+      "sha256": "bbaac069ad4b2080d7c6c32254f7f2ab32b1a549dbdc253cdcbd13ce7290c838",
+      "mtime_ns": 1794976201482102053
+    },
+    {
+      "path": "build/voice-review/final-audio/astra-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 61,
+      "sha256": "2959a1659c16e92d7e32e0deca7c24eda4d20359d8cf72e11a868faf10e3cd7c",
+      "mtime_ns": 1794976203070920825
+    },
+    {
+      "path": "build/voice-review/final-audio/astra-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 255784,
+      "sha256": "4688895e97787896a582347a2564691b23d0cad97c9d3051b767476ae976a572",
+      "mtime_ns": 1794976202316161186
+    },
+    {
+      "path": "build/voice-review/final-audio/astra-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31,
+      "sha256": "5603e7143952d07a9e54cf3b8b2b61e46b6d6f00de602c9e6c6656c86443dc22",
+      "mtime_ns": 1794976203587150489
+    },
+    {
+      "path": "build/voice-review/final-audio/astra-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 187336,
+      "sha256": "5d6511f4e2b7ae14fc801d585a363a0f50ab97b246f5c16a9c72b3c04436faeb",
+      "mtime_ns": 1794976203092358884
+    },
+    {
+      "path": "build/voice-review/final-audio/board-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 29,
+      "sha256": "26d45339a0ecdc9abb205a63f385734d2eea0ab42b46d7a9f2e1b2fc14aba6fa",
+      "mtime_ns": 1794976214028310457
+    },
+    {
+      "path": "build/voice-review/final-audio/board-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 177784,
+      "sha256": "8ec3fb95e773f2d21cdc21ee88847bc3d0e1d06533e2df338203796a937a6c30",
+      "mtime_ns": 1794976213461464875
+    },
+    {
+      "path": "build/voice-review/final-audio/board-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 55,
+      "sha256": "bec137c9b8d5540aa7871236daf15ea6673eb720b813f7255ecc0ed305e15360",
+      "mtime_ns": 1794976214679643333
+    },
+    {
+      "path": "build/voice-review/final-audio/board-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 254584,
+      "sha256": "5929d015ecd5d7079661678987942b72985f014bd203c841021dd42e0703f6d8",
+      "mtime_ns": 1794976214051817318
+    },
+    {
+      "path": "build/voice-review/final-audio/board-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 64,
+      "sha256": "f4299dacafcc5589cd1ed0b7156ce2cda2ab1dcdc037fcf8d4f265acafb7f1c6",
+      "mtime_ns": 1794976215503022083
+    },
+    {
+      "path": "build/voice-review/final-audio/board-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 373624,
+      "sha256": "91d1b82d1c76d5d155ed27425f7a1a6755f918d3665f49d39704f8394c4fe442",
+      "mtime_ns": 1794976214705531034
+    },
+    {
+      "path": "build/voice-review/final-audio/fable-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 63,
+      "sha256": "49984e95a34ff7c39ea714066670505847c32e10bbcd3da5f761b34654579221",
+      "mtime_ns": 1794976199776442131
+    },
+    {
+      "path": "build/voice-review/final-audio/fable-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 227704,
+      "sha256": "8da51fd0dc411b87938ac04343364b84ea0546b8bf11db2864a8e023d18eb477",
+      "mtime_ns": 1794976198807332909
+    },
+    {
+      "path": "build/voice-review/final-audio/fable-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 51,
+      "sha256": "2123a5b4b3a6af009ea1efe8df6e4d861fd3a1085000ff83ba7ca1fdea723067",
+      "mtime_ns": 1794976200982640808
+    },
+    {
+      "path": "build/voice-review/final-audio/fable-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 239224,
+      "sha256": "44ed8fd17153cb7d6d8e4af60c552d0177155655e9bb74f9cae10d06b456fe47",
+      "mtime_ns": 1794976199798623887
+    },
+    {
+      "path": "build/voice-review/final-audio/fable-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31,
+      "sha256": "37e976edcea8a18bc1c2b51b19d09f32b6f39826ba7fadd3de0604010c3db860",
+      "mtime_ns": 1794976201458570525
+    },
+    {
+      "path": "build/voice-review/final-audio/fable-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 185464,
+      "sha256": "7136bfdb9655768aca45fe1b7f46ba169d48d8fabe038074314b57fe3f8c973c",
+      "mtime_ns": 1794976201005467887
+    },
+    {
+      "path": "build/voice-review/final-audio/open-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 68,
+      "sha256": "c79f7b08b9a68049d4939ebe35be0933686a9d29a4e10038b6271df3ad19d5f8",
+      "mtime_ns": 1794976197585209176
+    },
+    {
+      "path": "build/voice-review/final-audio/open-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 312184,
+      "sha256": "53fb6f46a47f50788613c0c55772364b9a180357ea6c31f136384d1a7381ddea",
+      "mtime_ns": 1794976196928532629
+    },
+    {
+      "path": "build/voice-review/final-audio/pair-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 47,
+      "sha256": "c87ea1e1202288acca04036bece3c2e110234dfffd90cf4d62cb9c5ed0e434d0",
+      "mtime_ns": 1794976204104847965
+    },
+    {
+      "path": "build/voice-review/final-audio/pair-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 233858,
+      "sha256": "5e77a4e6fccf95209ba69c70cc255b778f3f3bcca17175af24a9487bae8930b1",
+      "mtime_ns": 1794976203609363536
+    },
+    {
+      "path": "build/voice-review/final-audio/pair-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 28,
+      "sha256": "4a2fff86ebcdfeea49a469f101a3abff5b3bb74c0096b4d1e5271dd596ef638b",
+      "mtime_ns": 1794976204779156459
+    },
+    {
+      "path": "build/voice-review/final-audio/pair-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 258198,
+      "sha256": "38d4baa810695a5e439922f0bdf1fbf710d51347e4f56cb77594a19a0150c882",
+      "mtime_ns": 1794976204127543921
+    },
+    {
+      "path": "build/voice-review/final-audio/pair-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 32,
+      "sha256": "15b1d8d36ac32c942d89e172eb568059970b22580ab447c2a1197fd871bdf68e",
+      "mtime_ns": 1794976205274680512
+    },
+    {
+      "path": "build/voice-review/final-audio/pair-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 186054,
+      "sha256": "3a6728c37f8042fb700010b9ca7e2ead1013529976d809f7c8e0f8c06dcc8fb0",
+      "mtime_ns": 1794976204801424672
+    },
+    {
+      "path": "build/voice-review/final-audio/rules-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 58,
+      "sha256": "3078e525edcecdf553c46ed1551911954328a10c3b8a44ec721c53625612b7a5",
+      "mtime_ns": 1794976198242340383
+    },
+    {
+      "path": "build/voice-review/final-audio/rules-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 243064,
+      "sha256": "b480c03297a547b30f75d5d05d9f665bdb38249667e807086bc64ae987538f76",
+      "mtime_ns": 1794976197608149920
+    },
+    {
+      "path": "build/voice-review/final-audio/rules-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 51,
+      "sha256": "be2012e2fb7873847853b590d3b39adc07d7cedb12395b881fea4f5c4cfbc907",
+      "mtime_ns": 1794976198784458997
+    },
+    {
+      "path": "build/voice-review/final-audio/rules-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 227704,
+      "sha256": "2ccf9e20905ac3e73450f1692fa285e869718fbf4ef4bf1c2e947b314ac25d6c",
+      "mtime_ns": 1794976198265269044
+    },
+    {
+      "path": "build/voice-review/final-audio/sol-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 57,
+      "sha256": "0cbb4503efb40550e330f45c9bea070de3e420227c80bbeb27f6ca01e5aa26de",
+      "mtime_ns": 1794976205984986391
+    },
+    {
+      "path": "build/voice-review/final-audio/sol-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 226072,
+      "sha256": "3da0a291509f261257ca826c3280c996c13bab44b9e1c5f5c2c42b894707cbe1",
+      "mtime_ns": 1794976205299470062
+    },
+    {
+      "path": "build/voice-review/final-audio/sol-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 79,
+      "sha256": "57cf15d8c007aaa94521c096c174d7841ed99526adcc69d7e153be8c6f4a869a",
+      "mtime_ns": 1794976206943691017
+    },
+    {
+      "path": "build/voice-review/final-audio/sol-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 298844,
+      "sha256": "018e44b80b384b587a7f30f9aa4552daf3747465d319a8637ab1ee9d451253a4",
+      "mtime_ns": 1794976206008649250
+    },
+    {
+      "path": "build/voice-review/final-audio/sol-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 28,
+      "sha256": "cadbf3bec95a21c447e4d845955a72a5bac32201fc4539158e65d9eb5006bd78",
+      "mtime_ns": 1794976207985900409
+    },
+    {
+      "path": "build/voice-review/final-audio/sol-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 153404,
+      "sha256": "1417c26b778353b0a8c9e9e1a6027fb5ca642fe443accca9257687019fcd421d",
+      "mtime_ns": 1794976206976550573
+    },
+    {
+      "path": "build/voice-review/final-audio/spectrum-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 64,
+      "sha256": "661832a476796d57982496400bf5a197e5fbd7e45ade586342e363b1e5b0128a",
+      "mtime_ns": 1794976211808881044
+    },
+    {
+      "path": "build/voice-review/final-audio/spectrum-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 239546,
+      "sha256": "073abbd1a1315fe29160028143eca825a2e08f3a784105c32e3f222f7259f155",
+      "mtime_ns": 1794976210480308217
+    },
+    {
+      "path": "build/voice-review/final-audio/spectrum-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 64,
+      "sha256": "670442face06a76c06711882962849d699e150309ef79ccb0593f379dcce782e",
+      "mtime_ns": 1794976212835211212
+    },
+    {
+      "path": "build/voice-review/final-audio/spectrum-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 253950,
+      "sha256": "78b37b1ae5c13248533d1f6d32617daf73fc8d5eda1fd4103b289278125efa5b",
+      "mtime_ns": 1794976211833093520
+    },
+    {
+      "path": "build/voice-review/final-audio/spectrum-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 47,
+      "sha256": "2debdb2cd025849a5cd8054d5b25438454bc43f0a1d8353c8e5c9b3a91b4eb84",
+      "mtime_ns": 1794976213438865625
+    },
+    {
+      "path": "build/voice-review/final-audio/spectrum-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 183068,
+      "sha256": "dbc88e0ff8a40be388a9d625a7c7f5269eccd28281f791d3d2f198a7302358bb",
+      "mtime_ns": 1794976212856818518
+    },
+    {
+      "path": "build/voice-review/final-audio/spread-1.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 36,
+      "sha256": "c110dea826279cd4d7d33d5c91e2b9ca300cea6e280c626fc705fb3df9842e33",
+      "mtime_ns": 1794976208845753411
+    },
+    {
+      "path": "build/voice-review/final-audio/spread-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 213232,
+      "sha256": "482e8d5c319ef2c5ebbf0006ac796e95f7b8e2404996d58ae135a0327e6bfdcc",
+      "mtime_ns": 1794976208017779854
+    },
+    {
+      "path": "build/voice-review/final-audio/spread-2.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 49,
+      "sha256": "d7fb1b47cf05a9e8956a70c0bcbbe7c0c1c9b806672dd315dd9c77bcb200620f",
+      "mtime_ns": 1794976209741205388
+    },
+    {
+      "path": "build/voice-review/final-audio/spread-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 257166,
+      "sha256": "19290f8a6476fcf393b004612f0737b88264c562826a07eccc90410ee951aeb0",
+      "mtime_ns": 1794976208891707357
+    },
+    {
+      "path": "build/voice-review/final-audio/spread-3.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 39,
+      "sha256": "368106e1c97cf7483c8f77c69afa087f3754bf49541db39752950c486d950202",
+      "mtime_ns": 1794976210452578627
+    },
+    {
+      "path": "build/voice-review/final-audio/spread-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 209762,
+      "sha256": "924c3c61e3f002e5f7ed0a20af279e2d3b2f71f904d2fdc21f6dbf81fc1e8d04",
+      "mtime_ns": 1794976209777406520
+    },
+    {
+      "path": "build/voice-review/final-takes.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 103,
+      "sha256": "3d58037b7d8251859aac7fc33ff659d9297d9f37d98e929114dd4471bc966ede",
+      "mtime_ns": 1794975940635798448
+    },
+    {
+      "path": "build/voice-review/finished-check.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 455,
+      "sha256": "02ee36dedf0e0387e5971eb030e43753f8dca7bee49c60e29b74ab49cf221eef",
+      "mtime_ns": 1794976490594254991
+    },
+    {
+      "path": "build/voice-review/finished-render.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 485,
+      "sha256": "92caa0f5c9eb77b1716b113e3c8f388f949f245fd98e2386b0c9393d1dc42ef7",
+      "mtime_ns": 1794976467954845810
+    },
+    {
+      "path": "build/voice-review/frames",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794976215825872854
+    },
+    {
+      "path": "build/voice-review/frames/board.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 71008,
+      "sha256": "f449ba365868ea51895a2481c739c8755b4f62aef5d9a7e6adfdf8240f645b9b",
+      "mtime_ns": 1794976215825949936
+    },
+    {
+      "path": "build/voice-review/frames/fable.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 58540,
+      "sha256": "f01003c05e8a0598cbd619de50ec09d923b379c1392a7f2a7c955fabd955b00d",
+      "mtime_ns": 1794976215617256562
+    },
+    {
+      "path": "build/voice-review/frames/open.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 50157,
+      "sha256": "b14ec0d6741ce72dd8c150800d6a2594e1dbd259c302cbd1a685ce4bca527ddd",
+      "mtime_ns": 1794976215557648567
+    },
+    {
+      "path": "build/voice-review/frames/pair.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 50005,
+      "sha256": "0a65ca97bcdf30a67cea25865f994f0239bea474bb25a338bcf31559c4e914c9",
+      "mtime_ns": 1794976215677993247
+    },
+    {
+      "path": "build/voice-review/frames/sol.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 56923,
+      "sha256": "599e64ae3a776ec093d9814b123bf87cf9084c03466ee95207f491811fd4df96",
+      "mtime_ns": 1794976215723629407
+    },
+    {
+      "path": "build/voice-review/frames/spectrum.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 56933,
+      "sha256": "f6792d5eed9bf041c93d5d84eb016a13563f2bb5f3b9c73987e84c0463a9170e",
+      "mtime_ns": 1794976215772415019
+    },
+    {
+      "path": "build/voice-review/line-times.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 556,
+      "sha256": "95355997b43074317fbb2b258ad39760264a070e1558f538daa51da1014c56fd",
+      "mtime_ns": 1794976196904521359
+    },
+    {
+      "path": "build/voice-review/master-render.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 490,
+      "sha256": "d3d0442c7dd4404a4a38950c7f6338ffc71f2f9d8bfb4fbb9add934574ff8c0c",
+      "mtime_ns": 1794976168490172178
+    },
+    {
+      "path": "build/voice-review/names.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 43,
+      "sha256": "02f73fd8dfacf6ff7f2d31b79e68b38efe8a8237ea2a4d728af1818ce738c441",
+      "mtime_ns": 1794975779447488888
+    },
+    {
+      "path": "build/voice-review/number-pickups.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 73,
+      "sha256": "a7ec878692c43a0e4c39a489be4fe7e7f4766e04ed812d13acb98f4a00100465",
+      "mtime_ns": 1794976297526040999
+    },
+    {
+      "path": "build/voice-review/pace.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 31,
+      "sha256": "25ef5c110cd4d165996bc710e80732297cb8835acd166d6a0021f47f824a284d",
+      "mtime_ns": 1794976012242266533
+    },
+    {
+      "path": "build/voice-review/port",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 6,
+      "sha256": "1d815aa835e6a3be8515ea035f1d1c827db06aef57ddb89366726326de02d0eb",
+      "mtime_ns": 1794975376593805092
+    },
+    {
+      "path": "build/voice-review/recording.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 159,
+      "sha256": "b2750f6d3594f187fe574e41244383429d5c3723a04e57723f18237c570e0364",
+      "mtime_ns": 1794976133827094288
+    },
+    {
+      "path": "build/voice-review/render.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 490,
+      "sha256": "96afd229436e4425fe997c4bdce4c7336841580ad11ef244d39179c24c7282e1",
+      "mtime_ns": 1794975975044041770
+    },
+    {
+      "path": "build/voice-review/revisions.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 256,
+      "sha256": "c4f8e20d53cf348e92cbdbbe6ca6730b9504f3bf4752fd06b03792fbb5e09aaa",
+      "mtime_ns": 1794975699805627412
+    },
+    {
+      "path": "build/voice-review/synthesis.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 379,
+      "sha256": "c3904a94d184b7ce7187405717c64c5ce9e7d01c661dd79d0408d96428931d81",
+      "mtime_ns": 1794975513667813223
+    },
+    {
+      "path": "build/voice-review/tunnel.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1794975376190542926
+    },
+    {
+      "path": "build/voiced",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794976473987521044
+    },
+    {
+      "path": "build/voiced/edit.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 6683,
+      "sha256": "2791ad54fc8ef2816fe73798253a15ffebc9161e45e589dba257c32d2ab49c2f",
+      "mtime_ns": 1794976441341579890
+    },
+    {
+      "path": "build/voiced/mix.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 24480078,
+      "sha256": "41ea35bea80511af3aa1307ddfe349992bff65204521e1e19e3bf3109b459de2",
+      "mtime_ns": 1794976441340368325
+    },
+    {
+      "path": "build/voiced/placement.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 12263,
+      "sha256": "9ff229066331c81ec81e0f6ade1ec5c275baa19e462919e35f3da46f71366f76",
+      "mtime_ns": 1794976445571069519
+    },
+    {
+      "path": "build/voiced/review",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794976490599742743
+    },
+    {
+      "path": "build/voiced/review/decode.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1794976482836994282
+    },
+    {
+      "path": "build/voiced/review/loudness.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1944,
+      "sha256": "e4e3d6d927cbb10c8cec1e3bc50e03434c7ecf225ae1281d730dc75410f8b99c",
+      "mtime_ns": 1794976490328304296
+    },
+    {
+      "path": "build/voiced/review/read-errors.log",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime_ns": 1794976473995778964
+    },
+    {
+      "path": "build/voiced/review/streams.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1007,
+      "sha256": "22e52c5a0f00a93e537bc9e0b0231124f0ea3e4c90fbb6e57167c57d6815949c",
+      "mtime_ns": 1794976482835991380
+    },
+    {
+      "path": "build/voiced/review/verification.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3991,
+      "sha256": "0372161a5544bf5231da53707f0c4b99fd05554b7bb1bf5ff6e67d3dfdc77fc1",
+      "mtime_ns": 1794976490593754915
+    },
+    {
+      "path": "data",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794967329506656974
+    },
+    {
+      "path": "data/results.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 5374,
+      "sha256": "49495e3d66e679fb3e485d9176c1d52573f8109376c872da3bef6ace3da16a3f",
+      "mtime_ns": 1794968678822650687
+    },
+    {
+      "path": "data/spectrum.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 35731,
+      "sha256": "a3f57e72c2260e95aafdfc19468dd433791508a8e6db24e18aa3a7ab203c99e3",
+      "mtime_ns": 1794968687567755591
+    },
+    {
+      "path": "out",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794978577356172493
+    },
+    {
+      "path": "out/AVIS3-Plus-1118-Breeze-project.zip",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 25675065,
+      "sha256": "88eaa7fbd2f255223fca142fc6c32ef37c632800d7255c83600b37527acf12cf",
+      "mtime_ns": 1794976573026146908
+    },
+    {
+      "path": "out/AVIS3-Plus-1118-Breeze-voice.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 12240044,
+      "sha256": "bf8abc1000a2c4013b0f3ff22c407a55245792edef6addfcc64c2e286daa5088",
+      "mtime_ns": 1794976436600891774
+    },
+    {
+      "path": "out/AVIS3-Plus-1118-Breeze.mp4",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 50347408,
+      "sha256": "11b6ac715b290682466ac5e9cd66739b4557b84a09c88e30c9493679d12d223d",
+      "mtime_ns": 1794976473962691619
+    },
+    {
+      "path": "out/AVIS3-Plus-1118-Breeze.zh-Hans.srt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2229,
+      "sha256": "1d61e3faaaacef23c058fee86faa270481d78cf4a82d6374f7c32c2b6e274f84",
+      "mtime_ns": 1794976441341424601
+    },
+    {
+      "path": "out/AVIS3-Plus-1118-project.zip",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 20933451,
+      "sha256": "68c4af933598abfc9989319bbea41d0026f34e70cbecf02c9b80b3b06d1308d0",
+      "mtime_ns": 1794968811292354227
+    },
+    {
+      "path": "out/AVIS3-Plus-1118.mp4",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 51519432,
+      "sha256": "642b20ab7b57fa4c7b9eeb40fd44f4cc6b3ce561fb9821a714e758e58544e498",
+      "mtime_ns": 1794968516592593353
+    },
+    {
+      "path": "out/AVIS3-Plus-1118.zh-Hans.srt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3224,
+      "sha256": "e2db5e86bee373ee357e214122dade33b4edc30f57c20d25e1a3ab101f6fb76e",
+      "mtime_ns": 1794968484809861778
+    },
+    {
+      "path": "out/publish",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794978951784162484
+    },
+    {
+      "path": "out/publish/AVIS3-Plus-1118-cover.jpg",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 419469,
+      "sha256": "269b468ecfdcac169d0a03106f88dfc66efe60e245c5659b51d29a99a46e6f42",
+      "mtime_ns": 1794978951784026653
+    },
+    {
+      "path": "out/publish/AVIS3-Plus-1118-cover.png",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2055416,
+      "sha256": "4041f75dedce0819c652dfe3c40a730b299355277b8d66981d88ffe209fcb0b9",
+      "mtime_ns": 1794978951774796039
+    },
+    {
+      "path": "out/publish/AVIS3-Plus-1118-description.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 742,
+      "sha256": "bd5be2c9eaea9906a7d28c82c0b7892b75e1306545227a04e7eeb0024911e32f",
+      "mtime_ns": 1794978948588101001
+    },
+    {
+      "path": "publish",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794978948589551063
+    },
+    {
+      "path": "publish/Cover.swift",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4429,
+      "sha256": "a725495b448bd026fe924c91e1402c4976399280fb6eae5af89fa37f32023ead",
+      "mtime_ns": 1794978948657153398
+    },
+    {
+      "path": "publish/README.md",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1009,
+      "sha256": "527c3f7ec20cb819251cf6cd4f9b692d1e097009a144eb65994e05fec134e13e",
+      "mtime_ns": 1794978948590954293
+    },
+    {
+      "path": "publish/imagegen-prompt.txt",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1647,
+      "sha256": "c359a7301ed0aedbc8e1e3845cfdc0e392cbcd67eb7a07e27a3997a7e2f69f67",
+      "mtime_ns": 1794978693734520597
+    },
+    {
+      "path": "publish/isolator.png",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1812250,
+      "sha256": "483964b471f9162b939c54394ebc3c9010dc4c7be824969791a9367c0ac22851",
+      "mtime_ns": 1794978591655019125
+    },
+    {
+      "path": "scripts",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794976159486598301
+    },
+    {
+      "path": "scripts/assemble-voice.mjs",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 8203,
+      "sha256": "46671bb2e9eb677597eb85193ba1096ba43a696f46cf5e98746bd4b8efdf7cdc",
+      "mtime_ns": 1794976433936630558
+    },
+    {
+      "path": "scripts/avtools.sh",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 568,
+      "sha256": "2eba99f7e05ecb46b68bfe75717b357086e76e61f3332965b12558141ac434d7",
+      "mtime_ns": 1794968260970263933
+    },
+    {
+      "path": "scripts/breeze-takes.mjs",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3458,
+      "sha256": "ef882676211921daa661bfc7728fa4b6445b1d8f9f315ec45384253e3d83af49",
+      "mtime_ns": 1794975444770632063
+    },
+    {
+      "path": "scripts/captions.mjs",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 1051,
+      "sha256": "6ebd9cbc5166c0814bde13c97b8814cf3e717abbb625f29ee74f9f271f2c0d30",
+      "mtime_ns": 1794967944700180831
+    },
+    {
+      "path": "scripts/check-export.mjs",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4774,
+      "sha256": "6968ac64e29a8f226e74ef9159ed1187d842e0fec69c17464d1124edfa44d21a",
+      "mtime_ns": 1794968589657664011
+    },
+    {
+      "path": "scripts/check-voiced.mjs",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 5160,
+      "sha256": "dd59f6fc6ed509951db26b1b9c63173a3407cced991b624c64925d3879636bfc",
+      "mtime_ns": 1794976159488469940
+    },
+    {
+      "path": "scripts/export-truth.pl",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 577,
+      "sha256": "e7c6d84534a7e3e9e9c0b45625257723735f7d1250888d8f483cef9d19d48eff",
+      "mtime_ns": 1794968678649822365
+    },
+    {
+      "path": "scripts/import-results.mjs",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 4049,
+      "sha256": "430ae08383b5b0ef904bbb17012836762ab2b220cb28ab1b027c6b20fa5356a0",
+      "mtime_ns": 1794967320090936229
+    },
+    {
+      "path": "scripts/import-spectrum.mjs",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3543,
+      "sha256": "d60c7d620cffc710aa5a061c6f12a97af07297a5b4850aab9c2e78da98f02f5c",
+      "mtime_ns": 1794968678649502120
+    },
+    {
+      "path": "scripts/render-voiced.sh",
+      "type": "file",
+      "mode": "0755",
+      "bytes": 1096,
+      "sha256": "10c9fd51631286031055485ad54795cbaafe5c74976a70aed3e559ad160d0a92",
+      "mtime_ns": 1794975846533066151
+    },
+    {
+      "path": "scripts/render.sh",
+      "type": "file",
+      "mode": "0755",
+      "bytes": 1059,
+      "sha256": "d0ab32dc62266c087937ca1fbd6fe6f5cdcb54c19155c6ea059536a946ca50f6",
+      "mtime_ns": 1794967944713078099
+    },
+    {
+      "path": "scripts/score.mjs",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 18420,
+      "sha256": "c1f255742f5e0d48e8c8c6390e892176c63c031eb9b5f3424d48c16e08a1efd7",
+      "mtime_ns": 1794968484746558713
+    },
+    {
+      "path": "scripts/verify-voiced.sh",
+      "type": "file",
+      "mode": "0755",
+      "bytes": 901,
+      "sha256": "3ba72861eec4d17787a5f77295648870b37d8b3968fdf105e65816284097cab2",
+      "mtime_ns": 1794976159481471710
+    },
+    {
+      "path": "scripts/verify.sh",
+      "type": "file",
+      "mode": "0755",
+      "bytes": 992,
+      "sha256": "bcd4f378d6e3f0485b4f450cb55b08665bc9aab412d9916ab0b9ba1927572a40",
+      "mtime_ns": 1794968589650954568
+    },
+    {
+      "path": "scripts/vo-audio.mjs",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 3302,
+      "sha256": "c1197025cc25310b64c048825856ba35e4d736765214c24ebf69562c10dce582",
+      "mtime_ns": 1794976433872107637
+    },
+    {
+      "path": "src",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794967944692735274
+    },
+    {
+      "path": "src/Bookends.swift",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 8332,
+      "sha256": "184fec7ce100ac0fffb7889191cad981cd9169dbaaea2f6edfa5a0d39f4110c1",
+      "mtime_ns": 1794976006959234139
+    },
+    {
+      "path": "src/Canvas.swift",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 8269,
+      "sha256": "2ec7dab751de2c07a4cc631ac1bce516db15607cdf4c1f6e5a308e259a1e8572",
+      "mtime_ns": 1794967540519568392
+    },
+    {
+      "path": "src/Charts.swift",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 7179,
+      "sha256": "316216446d4a76334f06d3b3777e2ed7e9774bc32ce58beb9e0562e15d67513f",
+      "mtime_ns": 1794968484745769391
+    },
+    {
+      "path": "src/FilmData.swift",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 2747,
+      "sha256": "f7409aca06a981d9e3df09fe9477d18db117b938336e97557e45360b7e5e96dc",
+      "mtime_ns": 1794976006959056517
+    },
+    {
+      "path": "src/Profiles.swift",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 6576,
+      "sha256": "8d333ab93e95b91af536284735167549b67db969c1f94a3791048f273c3791b8",
+      "mtime_ns": 1794968190901146548
+    },
+    {
+      "path": "src/edit.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 6576,
+      "sha256": "ced5adaceb9ca065492ccdcc4e23adada0fa6c3b936b5e475502bf32ba665e5e",
+      "mtime_ns": 1794968190901451002
+    },
+    {
+      "path": "src/main.swift",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 6377,
+      "sha256": "1b8ab3a512a43abaaa0b8c27b9b49cc34e68c78df099f55c31c85973cdd74ad9",
+      "mtime_ns": 1794967944694730662
+    },
+    {
+      "path": "voice",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794975444836702170
+    },
+    {
+      "path": "voice/script.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 5893,
+      "sha256": "824d48b64106e8669b28204e0f9c3baccab12161fd02c3f1f5889ff10f41a095",
+      "mtime_ns": 1794976283882888179
+    },
+    {
+      "path": "voice/takes",
+      "type": "directory",
+      "mode": "0755",
+      "mtime_ns": 1794976297525574715
+    },
+    {
+      "path": "voice/takes/astra-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 245804,
+      "sha256": "c6534b53373a39e3fe2817e7114063fc320563046db577deea8ead008127c3f9",
+      "mtime_ns": 1794976287368520882
+    },
+    {
+      "path": "voice/takes/astra-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 272684,
+      "sha256": "8dde77e49219b34e67e78acc8ee4cabd4e3c265ac9f89c950a98df7888d6cf0a",
+      "mtime_ns": 1794976010414542665
+    },
+    {
+      "path": "voice/takes/astra-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 199724,
+      "sha256": "05d6eb1a49bea2ca595381e469b3627090466de067dcfb6217499cb223e4a946",
+      "mtime_ns": 1794975471909779462
+    },
+    {
+      "path": "voice/takes/board-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 149804,
+      "sha256": "081945d0c06160745c03efb36bf1d3b2d956afe267eb8fe981170905ba10ad29",
+      "mtime_ns": 1794976297520847118
+    },
+    {
+      "path": "voice/takes/board-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 249644,
+      "sha256": "4bedbf7fb18b07626eca718e334581cebeef87d4b341114c1f417d9f626ce6b2",
+      "mtime_ns": 1794975940632474247
+    },
+    {
+      "path": "voice/takes/board-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 368684,
+      "sha256": "9407d9ba2b8f1783c03184f487fb89a8b919ec6a5fcf6fb08097cc065b7c7f71",
+      "mtime_ns": 1794976133823786045
+    },
+    {
+      "path": "voice/takes/fable-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 222764,
+      "sha256": "0d1125cc4d4cf2d2a8cb383f0ac7f85a8a42bf8cb762038e14c8272014dfbc47",
+      "mtime_ns": 1794976116083565430
+    },
+    {
+      "path": "voice/takes/fable-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 234284,
+      "sha256": "6007a0b9dae41dcd724ff51343e05188c318285523888e2e8975e23d7f06c532",
+      "mtime_ns": 1794975462745367712
+    },
+    {
+      "path": "voice/takes/fable-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 180524,
+      "sha256": "f4cdcd686a5f06084469665cc838c80054163dca29a539ad2dac79edc78418c1",
+      "mtime_ns": 1794975464757684352
+    },
+    {
+      "path": "voice/takes/index.json",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 7217,
+      "sha256": "f46afcd0f7484bb0501b238abbf13af106f5540a692e3ab75cfee38966c31a74",
+      "mtime_ns": 1794976297525221803
+    },
+    {
+      "path": "voice/takes/open-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 307244,
+      "sha256": "a5cf85869b040c9086b3374aef056046a5fefdc5d280b80fb26613283c138ad3",
+      "mtime_ns": 1794975923832268243
+    },
+    {
+      "path": "voice/takes/pair-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 238124,
+      "sha256": "4e1a23c9d5302e62043d5bec9ccfb9e9c72e15510ac4f99bcd67814d6fe0ecaf",
+      "mtime_ns": 1794976118393312884
+    },
+    {
+      "path": "voice/takes/pair-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 284204,
+      "sha256": "d36eb604951d8bd2b7e84aaddddfd9c5590789eb7a783f4600f3df477c1d72ea",
+      "mtime_ns": 1794976290051852857
+    },
+    {
+      "path": "voice/takes/pair-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 188204,
+      "sha256": "710dc26b01a12bd13696d58fae5ae0eca6bd521f11358296e1e4f841a197b929",
+      "mtime_ns": 1794975674575703010
+    },
+    {
+      "path": "voice/takes/reference.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 307244,
+      "sha256": "82268a103e76cc55002e1159f34ba5dca917f79155e9b59d9fbaf4e90d477b71",
+      "mtime_ns": 1794975448954916235
+    },
+    {
+      "path": "voice/takes/rules-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 238124,
+      "sha256": "415fcb6d3475863619fb8503d977d85a7a4b5e91bb462688ecff4fe4ae3dcd4f",
+      "mtime_ns": 1794976111744422964
+    },
+    {
+      "path": "voice/takes/rules-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 222764,
+      "sha256": "8d5ae9771d9451df939403776320f797303338d73f768cbf55ba49c5d70a6397",
+      "mtime_ns": 1794976113932946792
+    },
+    {
+      "path": "voice/takes/sol-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 238124,
+      "sha256": "6a28fb00e40d4b9f91970f0ead060436be09012355f370aea3f6dca094e8e5a2",
+      "mtime_ns": 1794975928763752124
+    },
+    {
+      "path": "voice/takes/sol-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 284204,
+      "sha256": "89e4d8a60607cd6f2a4cb7ce931d4d20e800296333fe576bca2a9da5f208d517",
+      "mtime_ns": 1794976292955824906
+    },
+    {
+      "path": "voice/takes/sol-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 161324,
+      "sha256": "67242288d1ec615a0a44063d809df908065232213080cefa7de3da2b2a51a208",
+      "mtime_ns": 1794975680704553365
+    },
+    {
+      "path": "voice/takes/spectrum-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 265004,
+      "sha256": "c7559cfb72814dc84db2e220768859a018ab9eb2d7b08c7694b35867a1af858d",
+      "mtime_ns": 1794976123832722051
+    },
+    {
+      "path": "voice/takes/spectrum-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 280364,
+      "sha256": "24c172b8d3d49b0af58f454e65c30ef4010f299437bba5cb9ff4c7c1b6c0102e",
+      "mtime_ns": 1794976126495300083
+    },
+    {
+      "path": "voice/takes/spectrum-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 199724,
+      "sha256": "e415052d1ca7ee4354dde325e9dc9092481e18e66f4b325c5a302d429301a95f",
+      "mtime_ns": 1794976128577793353
+    },
+    {
+      "path": "voice/takes/spread-1.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 272684,
+      "sha256": "ec0f257a4638219323585a856373a939df0e976eb393888fc587c3e9387fe69f",
+      "mtime_ns": 1794976295820535992
+    },
+    {
+      "path": "voice/takes/spread-2.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 288044,
+      "sha256": "f4b31b7641f2e9a18cedd7cc6c0a6020e323194b8749e806149833d9803bc77d",
+      "mtime_ns": 1794975934931512737
+    },
+    {
+      "path": "voice/takes/spread-3.wav",
+      "type": "file",
+      "mode": "0644",
+      "bytes": 234284,
+      "sha256": "ee76bd3dc7ea084d16811e1719bd045f453205e54a6c9245d8101994d38a3886",
+      "mtime_ns": 1794976120982580124
+    }
+  ]
+}

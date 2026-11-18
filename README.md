@@ -1,5 +1,7 @@
 # AVIS3 Arena Plus · 三份隔振答卷
 
+[完整工程备份与成片](https://github.com/liuyinchu/ai-video-avis3-arena-plus-1118/releases/tag/backup-20261118) · [完整恢复与校验说明](backup/README.md)
+
 Evaluation-1108 的独立补充片，聚焦新增的 16 号 Claude Fable 5.2、13 号 GPT-6.2 Astra 和 17 号 GPT-6.2 Sol。影片以三人的逐场积分开场，简述隔振任务，最后落在 2026 年 11 月 18 日的完整 17 席榜单。
 
 [成片 MP4](https://github.com/liuyinchu/ai-video-avis3-arena-plus-1118/releases/download/backup-20261118/AVIS3-Plus-1118.mp4) · [简体中文字幕 SRT](out/AVIS3-Plus-1118.zh-Hans.srt) · [原版发布封面](out/publish/AVIS3-Plus-1118-cover.jpg) · [视频简介](out/publish/AVIS3-Plus-1118-description.txt)

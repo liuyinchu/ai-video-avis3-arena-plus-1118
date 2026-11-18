@@ -1,0 +1,39 @@
+name: Verify and publish the full AVIS3 snapshot
+
+on:
+  push:
+    tags:
+      - backup-20261118
+
+permissions:
+  contents: write
+
+concurrency:
+  group: avis3-full-backup-20261118
+  cancel-in-progress: false
+
+jobs:
+  restore-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Read recovery metadata from the pushed tag
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init --quiet tagged
+          git -C tagged fetch --quiet --depth=1 --no-tags "https://github.com/${GITHUB_REPOSITORY}.git" "$GITHUB_REF"
+          git -C tagged checkout --quiet --detach FETCH_HEAD
+          test "$(git -C tagged rev-parse HEAD)" = "$GITHUB_SHA"
+
+      - name: Reassemble all 19 parts and verify the restored directory
+        working-directory: tagged
+        shell: bash
+        run: bash backup/restore.sh "$RUNNER_TEMP/avis3-restored"
+
+      - name: Upload verified files and publish the Release
+        working-directory: tagged
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: ruby backup/publish.rb "$RUNNER_TEMP/avis3-restored"

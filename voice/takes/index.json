@@ -1,0 +1,205 @@
+{
+  "model": "Breeze TTS 2",
+  "takes": {
+    "reference": {
+      "fingerprint": "75fac3b8b14e07af96ee328b1016a66a81b1c1db1c03994d7f7b67156659c4c3",
+      "sha256": "82268a103e76cc55002e1159f34ba5dca917f79155e9b59d9fbaf4e90d477b71",
+      "duration": 6.4,
+      "seed": 42,
+      "mode": "design",
+      "job": "41256"
+    },
+    "open-1": {
+      "fingerprint": "50264a219f601cc16b62670ce53e3ac3f54581ef7c4c6481970f8123b086c802",
+      "sha256": "a5cf85869b040c9086b3374aef056046a5fefdc5d280b80fb26613283c138ad3",
+      "duration": 6.4,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "rules-1": {
+      "fingerprint": "4dc10d930c2c7814f0de6413ed8f176c5000cbbc44072061cd4122f1c2789021",
+      "sha256": "415fcb6d3475863619fb8503d977d85a7a4b5e91bb462688ecff4fe4ae3dcd4f",
+      "duration": 4.96,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "rules-2": {
+      "fingerprint": "00fd19caf3cdf53722f2abd94e8405207901822fcf8f65e0e4390a182f9aee40",
+      "sha256": "8d5ae9771d9451df939403776320f797303338d73f768cbf55ba49c5d70a6397",
+      "duration": 4.64,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "fable-1": {
+      "fingerprint": "738e047662fff3212d43d4ab50ce9b8a94e626db8d7d3ea8ed65f3855c46af3c",
+      "sha256": "0d1125cc4d4cf2d2a8cb383f0ac7f85a8a42bf8cb762038e14c8272014dfbc47",
+      "duration": 4.64,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "fable-2": {
+      "fingerprint": "69c6608429a824c9cc4dea8121cb17cb9300d022800b9529702ce63f752c941a",
+      "sha256": "6007a0b9dae41dcd724ff51343e05188c318285523888e2e8975e23d7f06c532",
+      "duration": 4.88,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "fable-3": {
+      "fingerprint": "9732d2ef2ae7337b899e24d17813c7191ffe4a2d31783adac0fd4890842d5056",
+      "sha256": "f4cdcd686a5f06084469665cc838c80054163dca29a539ad2dac79edc78418c1",
+      "duration": 3.76,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "astra-1": {
+      "fingerprint": "eeaa5d9c1e27b46f58c1110ab5573d3f39ec6f5e5b1aa91e2a652139a86263fc",
+      "sha256": "c6534b53373a39e3fe2817e7114063fc320563046db577deea8ead008127c3f9",
+      "duration": 5.12,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "astra-2": {
+      "fingerprint": "073a5dac5010ba3fd1356f1778fa7dd881aa05adf577e043e5cf2276f47ff81b",
+      "sha256": "8dde77e49219b34e67e78acc8ee4cabd4e3c265ac9f89c950a98df7888d6cf0a",
+      "duration": 5.68,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "astra-3": {
+      "fingerprint": "d6de60131bb77cbfd12e4f5912bbf1ce4dc72412f9ec2e73c0c59e3f6f58badc",
+      "sha256": "05d6eb1a49bea2ca595381e469b3627090466de067dcfb6217499cb223e4a946",
+      "duration": 4.16,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "pair-1": {
+      "fingerprint": "f321b6a4ff2eb0d0b1e5fd1cd2963b386b6edd5727c6d3ee14faac9773715f4c",
+      "sha256": "4e1a23c9d5302e62043d5bec9ccfb9e9c72e15510ac4f99bcd67814d6fe0ecaf",
+      "duration": 4.96,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "pair-2": {
+      "fingerprint": "1615cc1dd6d046cdf343747350d650fa5acaf864247990e29ada4e8a249a044f",
+      "sha256": "d36eb604951d8bd2b7e84aaddddfd9c5590789eb7a783f4600f3df477c1d72ea",
+      "duration": 5.92,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "pair-3": {
+      "fingerprint": "88977e7a71ba89f775e09e596e65ab36c0216c6f11e6e0cc1c1e85e09a3d6b3e",
+      "sha256": "710dc26b01a12bd13696d58fae5ae0eca6bd521f11358296e1e4f841a197b929",
+      "duration": 3.92,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "sol-1": {
+      "fingerprint": "afee421477b5286b569d433ce8d0f44f17a195fb7429be1701edae57afbcc75d",
+      "sha256": "6a28fb00e40d4b9f91970f0ead060436be09012355f370aea3f6dca094e8e5a2",
+      "duration": 4.96,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "sol-2": {
+      "fingerprint": "e0dc24fad04d43c5fd549df931777d260f95ad2f27ea47aad8386d4e4e690400",
+      "sha256": "89e4d8a60607cd6f2a4cb7ce931d4d20e800296333fe576bca2a9da5f208d517",
+      "duration": 5.92,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "sol-3": {
+      "fingerprint": "6869c6686530f5f41e7c8ffc67d44cb5448f4531817940cf2ab8dfc7ba4f79dc",
+      "sha256": "67242288d1ec615a0a44063d809df908065232213080cefa7de3da2b2a51a208",
+      "duration": 3.36,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "spread-1": {
+      "fingerprint": "a9a172110aa2016d6f63cb4ed4b7554180d747767cd60120fe96c6e9fdac50ef",
+      "sha256": "ec0f257a4638219323585a856373a939df0e976eb393888fc587c3e9387fe69f",
+      "duration": 5.68,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "spread-2": {
+      "fingerprint": "b935d52bb96b6a8e484ae4a97f618d1a344ca52290198b25610e0a9c9b30c8a6",
+      "sha256": "f4b31b7641f2e9a18cedd7cc6c0a6020e323194b8749e806149833d9803bc77d",
+      "duration": 6,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "spread-3": {
+      "fingerprint": "cdead8a8723c2617025164feaa4f2491978dd02af0c30c9f92ff82cf9b8cdb8f",
+      "sha256": "ee76bd3dc7ea084d16811e1719bd045f453205e54a6c9245d8101994d38a3886",
+      "duration": 4.88,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "spectrum-1": {
+      "fingerprint": "3458cbb9fb9875a5ed8d46bc08fd0a2789f5b79c59bd0ade8e3f0e5ac0888dc4",
+      "sha256": "c7559cfb72814dc84db2e220768859a018ab9eb2d7b08c7694b35867a1af858d",
+      "duration": 5.52,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "spectrum-2": {
+      "fingerprint": "59bfbf3a1e9fb411f8bbd79192e1f741f57ff8ecfaf4cb7121da0ce9dfab7253",
+      "sha256": "24c172b8d3d49b0af58f454e65c30ef4010f299437bba5cb9ff4c7c1b6c0102e",
+      "duration": 5.84,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "spectrum-3": {
+      "fingerprint": "bea9a501e791030cfb64a22a67aab424eb6476802c8d6be77160b7361302504f",
+      "sha256": "e415052d1ca7ee4354dde325e9dc9092481e18e66f4b325c5a302d429301a95f",
+      "duration": 4.16,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "board-1": {
+      "fingerprint": "b693670e270a4c1bb0c3909ba0580a40f65dc5f98afba25643cbdffd9846da49",
+      "sha256": "081945d0c06160745c03efb36bf1d3b2d956afe267eb8fe981170905ba10ad29",
+      "duration": 3.12,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "board-2": {
+      "fingerprint": "7e92807b14617e3f74e3d10bdeb040e004b4b32d15b172390b5a41843ed4d635",
+      "sha256": "4bedbf7fb18b07626eca718e334581cebeef87d4b341114c1f417d9f626ce6b2",
+      "duration": 5.2,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    },
+    "board-3": {
+      "fingerprint": "2b5b6977e216ba94509ae5e92b07bffd3b853a56be0b8230878543afcf0a33ef",
+      "sha256": "9407d9ba2b8f1783c03184f487fb89a8b919ec6a5fcf6fb08097cc065b7c7f71",
+      "duration": 7.68,
+      "seed": 42,
+      "mode": "reference",
+      "job": "41256"
+    }
+  }
+}
